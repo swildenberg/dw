@@ -1,0 +1,1120 @@
+--------------------
+Wed Jan 25 20:47:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:47:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:47:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:48:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:48:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:48:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:48:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:48:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:48:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:49:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:49:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:49:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:49:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:49:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:49:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:50:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:50:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:50:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:50:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:50:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:50:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:51:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:51:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:51:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:51:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:51:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:51:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:52:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:52:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:52:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:52:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:52:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:52:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:53:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:53:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:53:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:53:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:53:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:53:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:54:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:54:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:54:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:54:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:54:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:54:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:55:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:55:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:55:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:55:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:55:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:55:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:56:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:56:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:56:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:56:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:56:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:56:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:57:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:57:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:57:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:57:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:57:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:57:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:58:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:58:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:58:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:58:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:58:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:58:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:59:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:59:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:59:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:59:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 20:59:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 20:59:44 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 21:00:04 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 21:00:04 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 21:00:24 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
+--------------------
+Wed Jan 25 21:00:24 2017:  **Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /secure/master at line 362
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 362
+--------------------
+Wed Jan 25 21:00:44 2017:  *Could not open /save/players/e/eron.o.gz.tmp for a save.
+Object: /global/lord#6 (/<driver>) in /(fake):0
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/login_handler (/<driver>) in /(fake):0
+(2) 'save_users' in /obj/handlers/login_handler at line 749
+(3) 'save_me' in /global/lord#6 (/global/player.c) at line 900
+(4) 'CATCH' in /global/lord#6 (/global/player.c) at line 900
+(5) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 43
+(6) 'apply_unguarded' in /secure/master at line 359
+(7) 'CATCH' in /secure/master at line 359
+(8) '<fake>' in /global/lord#6 (/<driver>) in /(fake):0
