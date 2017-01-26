@@ -43,7 +43,7 @@ void set_unarmed_attacks( object thing ) {
    thing->remove_attack( "claws" );
    thing->remove_attack( "bite" );
 
-   thing->add_attack( "claws", 100, ({ ( 3 * number ) / 2, 5, number } ),
+   thing->add_attack( "claws", 100, ({ ( 3 * number ) / 2, 5, number }),
       "sharp", "unarmed", 0 );
    thing->add_attack( "bite", 50, ({ 3 * number, 2, number }),
       "pierce", "unarmed", 0 );

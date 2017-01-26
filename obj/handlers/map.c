@@ -524,7 +524,7 @@ string *qdir( string room ) {
    }
    qddir = query_dest_dir( room );
    for( i = sizeof( qddir ) - 2;i > -1;i -= 2)
-     dir += ({ qddir[ i ]} );
+     dir += ({ qddir[ i ]});
    return dir;
 } /* qdir() */
 

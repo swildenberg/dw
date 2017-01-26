@@ -17,7 +17,7 @@ void eventReceiveAuthRequest(mixed *packet) {
   sessions[packet[2]] = key;
   call_out("eventTimeout", TIMEOUT, packet[2]);
   INTERMUD_D->eventExternWrite(({"auth-mud-reply", 5, mud_name(), 0,
-			 packet[2], 0, key}));
+                         packet[2], 0, key}));
 }
 
 void eventTimeout(string mudname) {
