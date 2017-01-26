@@ -1,0 +1,24 @@
+--------------------
+Wed Jan 25 17:50:20 2017:  *Error in loading object '/std/races/dog'
+Object: /std/race at line 151
+Arguments were: (void)
+Locals were: none.
+
+
+(1) 'preload' in /secure/master in /secure/master/preload.c:28
+(2) 'CATCH' in /secure/master in /secure/master/preload.c:28
+(3) 'create' in /std/race at line 151
+--------------------
+Wed Jan 25 17:50:20 2017:  *Bad argument 1 to explode()
+Expected: string Got: 0.
+Object: /obj/handlers/twiki at line 52
+Arguments were: (void)
+Locals were: none.
+
+
+(1) 'preload' in /secure/master in /secure/master/preload.c:28
+(2) 'CATCH' in /secure/master in /secure/master/preload.c:28
+(3) 'create' in /obj/handlers/twiki at line 28
+(4) 'do_check_changes' in /obj/handlers/twiki at line 169
+(5) 'find_changes' in /obj/handlers/twiki at line 109
+(6) 'find_changed_pages' in /obj/handlers/twiki at line 52

@@ -1,0 +1,9 @@
+#/obj/handlers/autodoc/autodoc_file.c
+public_functions (["heart_beat":({({"void",}),({}),([]),}),"shut":({({"void",}),({({"int",}),"minutes",({"string",}),"reason",}),([]),}),"do_ambushed":({({"void",}),({}),([]),}),"person_dead":({({"void",}),({({"object",}),"thing",({"int",}),"number",}),([]),}),"query_unambushable":({({"int",}),({}),([]),}),"end_it_all":({({"void",}),({}),([]),}),"query_time_to_crash":({({"int",}),({}),([]),}),"force_quit":({({"void",}),({({"object",}),"ob",}),([]),}),"blue":({({"void",}),({}),([]),}),"check_ghosts":({({"void",}),({}),([]),}),"person_died":({({"void",}),({({"string",}),"word",({"int",}),"number",}),([]),}),"long":({({"string",}),({({"string",}),"str",({"int",}),"dark",}),([]),}),])
+protected_functions ([])
+inherits (["/std/container":({}),])
+define_docs (["OFFLER_SHADOW":([]),"EEISLISTEN	-20	/*":([]),"EENONBLOCK	":([]),"EESENDTO	-27	/*":([]),"EECALLBACK	-29	/*":([]),"EESEND		-28	/*":([]),"EEISBOUND	":([]),"ishout(str)":([]),"ERROR_STRINGS	":([]),])
+includes (["/include/network.h":1485386656,"/include/socket_errors.h":1485386656,])
+class_docs ([])
+file_name "/obj/shut.c"
+last_changed 1485386656

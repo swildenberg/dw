@@ -1,0 +1,32 @@
+--------------------
+Wed Jan 25 17:50:25 2017:  *Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /obj/handlers/armoury at line 541
+Arguments were: (void)
+Locals were: none.
+
+
+(1) 'rehash' in /obj/handlers/armoury at line 361
+(2) 'make_list' in /obj/handlers/armoury at line 154
+(3) 'walk_directory' in /obj/handlers/armoury at line 541
+--------------------
+Wed Jan 25 17:50:30 2017:  *Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /obj/handlers/armoury at line 541
+Arguments were: (void)
+Locals were: none.
+
+
+(1) 'rehash' in /obj/handlers/armoury at line 364
+(2) 'make_list' in /obj/handlers/armoury at line 154
+(3) 'walk_directory' in /obj/handlers/armoury at line 541
+--------------------
+Wed Jan 25 17:52:20 2017:  *Error in loading object '/obj/handlers/map'
+Object: /obj/handlers/wander_handler at line 400
+Arguments were: (void)
+Locals were: none.
+
+
+(1) '<fake>' in /obj/handlers/wander_handler (/<driver>) in /(fake):0
+(2) 'do_move_after' in /obj/handlers/wander_handler at line 477
+(3) 'do_wander' in /obj/handlers/wander_handler at line 400
