@@ -41,7 +41,7 @@ void eventReceiveError(mixed *packet) {
         case "unk-user":
         if( !ob ) return;
         tell_object(ob, (msg ? msg : "Unknown user reported from " + mud +
-                	   "."));
+                           "."));
         return;
     }
 }

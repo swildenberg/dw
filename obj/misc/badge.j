@@ -56,10 +56,10 @@ void setup() {
          "/d/sur/sur-new/Holywood/roads/road1",
       }),
       "/d/am/mackerel/alley" : ({
-	 "/d/am/mackerel/wrestle/entrance",
+         "/d/am/mackerel/wrestle/entrance",
       }),
       "/d/guilds/wizards/Ankh-Morpork/inside/stairs_ground" : ({
-	 "/d/guilds/wizards/Ankh-Morpork/lecturehalls/lect1a",
+         "/d/guilds/wizards/Ankh-Morpork/lecturehalls/lect1a",
       }),
    ]);
    set_read_mess( "This badge allows the bearer to move into certain areas "

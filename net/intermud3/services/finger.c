@@ -20,8 +20,8 @@ void eventReceiveFingerRequest(mixed *packet) {
                                   "No one going by the name of "+
                                   capitalize(packet[6]) + " has ever visited "+
                                   "Discworld.",
-				  packet }));
-	return;
+                                  packet }));
+        return;
     }
     demon = clone_object("/net/daemon/chars/in_finger_demon");
     demon->setup_finger(lower_case(packet[6]));
@@ -47,7 +47,7 @@ void eventReceiveFingerReply(mixed *packet) {
     else fing += packet[6] + "\n";
     fing += "Email: " + (packet[9] ? packet[9] : "Confidential") + "\n";
     fing += ((packet[11] != -1) ? "On since: " + packet[10]  : 
-	     "Last logged in: " + packet[10]);
+             "Last logged in: " + packet[10]);
     if( packet[11] != -1 ) fing += " (idle " + packet[11] + " seconds)\n";
     else fing += "\n";
     fing += "Site: " + (packet[12] ? packet[12] : "Confidential") + "\n";
@@ -67,5 +67,5 @@ void eventSendFingerRequest(string who, string where) {
     _finger_ids[ crname ] = pl; 
 
     INTERMUD_D->eventExternWrite( ({ "finger-req", 5, mud_name(), crname, where, 0, 
-			       who }) );
+                               who }) );
 }

@@ -31,16 +31,16 @@ void setup()
   add_adjective( "dead" );
   set_main_plural( "dead eels" );
   set_long( function()
-	    {
-	      if( skinned ) 
-		return
-		  "This is the dead body of an unfortunate eel.  "
-		  "As if being dead wasn't bad enough, it has also "
-		  "been skinned.\n";
-	      return
-		  "This is the dead body of an unfortunate eel.  "
-		  "Most people skin such a fish before eating it.\n";
-	    } );
+            {
+              if( skinned ) 
+                return
+                  "This is the dead body of an unfortunate eel.  "
+                  "As if being dead wasn't bad enough, it has also "
+                  "been skinned.\n";
+              return
+                  "This is the dead body of an unfortunate eel.  "
+                  "Most people skin such a fish before eating it.\n";
+            } );
   set_weight( 60 ); /* Wrestling eels are big */
   set_value( 200 );
   set_weight_per_bite( 2 );
@@ -62,7 +62,7 @@ int do_skin( object *indirect_obs, string indir_match, string dir_match,
   if( !test_sharp( indirect_obs[0] ) )
     {
       tell_room( environment( this_player() ),
-	     this_player()->one_short() + " unsuccessfully tries to "
+             this_player()->one_short() + " unsuccessfully tries to "
              "skin an eel with " + indirect_obs[0]->one_short() + ".\n",
              this_player() );
       return notify_fail( indirect_obs[0]->the_short() +

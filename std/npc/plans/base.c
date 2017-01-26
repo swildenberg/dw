@@ -24,10 +24,10 @@ void create() {
  * @return always returns 0
  */
 int pre_condition(object npc,
-		  string goal,
+                  string goal,
                   mixed goal_info,
-		  string event,
-		  mixed *data) {
+                  string event,
+                  mixed *data) {
    return 0;
 } /* pre_condition() */
 
@@ -47,10 +47,10 @@ int finished(object npc,
  * @see set_sutability()
  */
 int query_sutability(object npc,
-		     string goal,
+                     string goal,
                      mixed goal_info,
-		     string event,
-		     mixed *data) {
+                     string event,
+                     mixed *data) {
    return _sutability;
 } /* query_sutability() */
 
@@ -71,10 +71,10 @@ void set_sutability(int sutability) {
  * @return the needed data, always 0
  */
 int query_data(object npc,
-	       string goal,
+               string goal,
                mixed goal_info,
-	       string event,
-	       mixed *data) {
+               string event,
+               mixed *data) {
    return 0;
 } /* query_data() */
 

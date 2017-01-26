@@ -18,13 +18,13 @@
 inherit "/cmds/guild_base";
 
 int new_skill_value(int sk) {
-	float f = 1000.0;
-	float k = 0.3;
+        float f = 1000.0;
+        float k = 0.3;
 
-	if(sk == 0)
-		return 0;
-	
-	return to_int(f * log( 1.0 + sk/(f + sk * k) ) + 0.5);
+        if(sk == 0)
+                return 0;
+        
+        return to_int(f * log( 1.0 + sk/(f + sk * k) ) + 0.5);
 }
 
 string rec_list( mixed *args, string path, int all, int lvl,
@@ -40,7 +40,7 @@ string rec_list( mixed *args, string path, int all, int lvl,
       if(tp[0..14] != ".other.language" && tp[0..13] != "other.language") {
         sk = new_skill_value(sk);
       }
-			
+                        
       reset_eval_cost();
       if (lvl == 1 && SKILL_OB->query_only_leaf(tp))
         o_l = 1;
@@ -85,7 +85,7 @@ int cmd( object *players, string word ) {
       result += sprintf( "%#*-s\n", (int)this_player()->query_cols(),
             rec_list( args, word, 1, 1, 0, pl ) );
 
-		 this_player()->more_string( result, "Skills" );
+                 this_player()->more_string( result, "Skills" );
       return 1;
    }
    args = (mixed *)SKILL_OB->query_skills();
@@ -94,7 +94,7 @@ int cmd( object *players, string word ) {
    result += sprintf( "%#*-s\n", (int)this_player()->query_cols(),
          rec_list( args, "", ( member_array( "all", bits ) != -1 ), 1, 0, pl ) );
      result += "New guild level: " +
-		   (pl->query_guild_ob())->query_new_level(pl) + "\n";
+                   (pl->query_guild_ob())->query_new_level(pl) + "\n";
 
    this_player()->more_string( result, "Skills" );
    return 1;

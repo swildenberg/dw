@@ -163,123 +163,123 @@ private void parse_comm(class imap_session sess, string str) {
   string *bits, rest, cmd, tmp;
   int fd = sess->fd, i, j, k;
   string id;
-	
-	TP("Parsing " + str + ".\n");
+        
+        TP("Parsing " + str + ".\n");
 
   bits = explode(str, " ");
-	id = bits[0];
+        id = bits[0];
   cmd = bits[1];
 
   sess->time = time();
   switch(lower_case(cmd)) {
-	case "capability":
-		eventWrite(fd, "* CAPABILITY IMAP4 IMAP4rev1 NAMESPACE AUTH=LOGIN\r\n");
-		eventWrite(fd, sprintf("%s OK CAPABILITY completed.\r\n",
-													 id, sess->num_messages));
-		TP("Sent capability\n");
-		break;
-	case "noop":
-		eventWrite(fd, id + " OK NOOP completed\r\n");
-		break;
-		
+        case "capability":
+                eventWrite(fd, "* CAPABILITY IMAP4 IMAP4rev1 NAMESPACE AUTH=LOGIN\r\n");
+                eventWrite(fd, sprintf("%s OK CAPABILITY completed.\r\n",
+                                                                                                         id, sess->num_messages));
+                TP("Sent capability\n");
+                break;
+        case "noop":
+                eventWrite(fd, id + " OK NOOP completed\r\n");
+                break;
+                
   case "logout":
-		sign_off(sess);
-		eventWrite(fd, id + " OK LOGOUT completed\r\n", 1);
+                sign_off(sess);
+                eventWrite(fd, id + " OK LOGOUT completed\r\n", 1);
     break;
 
 
-	case "authenticate":
+        case "authenticate":
     CHECK_STATE(IMAP_CONNECTED);
-		eventWrite(fd, sprintf("%s NO - unsupported authentication mechanism.\r\n",
-													 id, sess->num_messages));
-		break;
+                eventWrite(fd, sprintf("%s NO - unsupported authentication mechanism.\r\n",
+                                                                                                         id, sess->num_messages));
+                break;
   case "login":
     CHECK_STATE(IMAP_CONNECTED);
 
-		if (sizeof(bits) > 4 ) {
-			rest = implode(bits[3..], " ");
-		} else if(sizeof(bits) > 3) {
-			rest = bits[3];
-		}
+                if (sizeof(bits) > 4 ) {
+                        rest = implode(bits[3..], " ");
+                } else if(sizeof(bits) > 3) {
+                        rest = bits[3];
+                }
     CHECK_CMD(2, id + " BAD - missing arguments\r\n");
-		bits[2] = replace(bits[2], "\"", "");
-		rest = replace(rest, "\"", "");
+                bits[2] = replace(bits[2], "\"", "");
+                rest = replace(rest, "\"", "");
     if (!LOGIN_OB->test_password(bits[2], rest)) {
       sess->state = IMAP_CONNECTED;
       eventWrite(fd, id + " NO - login failure: user name or password rejected\r\n");
     } else {
       sess->state = IMAP_AUTHENTICATED;
-			sess->user_name = bits[2];
-			TP(bits[2] + " logged in.\n");
+                        sess->user_name = bits[2];
+                        TP(bits[2] + " logged in.\n");
       eventWrite(fd, sprintf("%s OK LOGIN completed\r\n",
                              id, sess->num_messages));
     }
-		break;
+                break;
 
-	case "select":
-		CHECK_STATE(IMAP_AUTHENTICATED);
+        case "select":
+                CHECK_STATE(IMAP_AUTHENTICATED);
 
-		CHECK_CMD(1, id + " BAD - missing argument.\r\n");
-		sess->selected = replace(bits[2], ({"\"", "", "/", ""}));
-		sess->state = IMAP_SELECTED;
-		
-		eventWrite(fd, id + " OK - SELECT completed\r\n");
-		break;
-		
-	case "examine":
-	case "create":
-	case "delete":
-	case "rename":
-	case "subscribe":
-	case "unsubscribe":
-	case "list":
-		CHECK_STATE(IMAP_AUTHENTICATED);
-		foreach(tmp in MAILER->query_folders(sess->user_name)) {
-			eventWrite(fd, "* LIST (\\Noselect) \"/\" /" + tmp + "\r\n");
-		}
-		eventWrite(fd, id + " OK LIST completed\r\n");
-		break;
-	case "lsub":
-		CHECK_STATE(IMAP_AUTHENTICATED);
-		foreach(tmp in MAILER->query_folders(sess->user_name)) {
-			eventWrite(fd, "* LSUB () \"/\" /" + tmp + "\r\n");
-		}
-		eventWrite(fd, id + " OK LSUB completed\r\n");
-		break;
-	case "status":
-	case "append":
+                CHECK_CMD(1, id + " BAD - missing argument.\r\n");
+                sess->selected = replace(bits[2], ({"\"", "", "/", ""}));
+                sess->state = IMAP_SELECTED;
+                
+                eventWrite(fd, id + " OK - SELECT completed\r\n");
+                break;
+                
+        case "examine":
+        case "create":
+        case "delete":
+        case "rename":
+        case "subscribe":
+        case "unsubscribe":
+        case "list":
+                CHECK_STATE(IMAP_AUTHENTICATED);
+                foreach(tmp in MAILER->query_folders(sess->user_name)) {
+                        eventWrite(fd, "* LIST (\\Noselect) \"/\" /" + tmp + "\r\n");
+                }
+                eventWrite(fd, id + " OK LIST completed\r\n");
+                break;
+        case "lsub":
+                CHECK_STATE(IMAP_AUTHENTICATED);
+                foreach(tmp in MAILER->query_folders(sess->user_name)) {
+                        eventWrite(fd, "* LSUB () \"/\" /" + tmp + "\r\n");
+                }
+                eventWrite(fd, id + " OK LSUB completed\r\n");
+                break;
+        case "status":
+        case "append":
 
-	case "uid":
-		CHECK_STATE(IMAP_SELECTED);
+        case "uid":
+                CHECK_STATE(IMAP_SELECTED);
 
-		CHECK_CMD(1, id + " BAD - missing argument.\r\n");
-		switch(lower_case(bits[2])) {
-		case "fetch":
-			TP("Doing fetch\n");
-			load_folder(sess);
-			if(sscanf(bits[3], "%d:%d", j, k) != 2) {
-				sscanf(bits[3], "%d:*", j);
-				k = sess->num_messages;
-			}
+                CHECK_CMD(1, id + " BAD - missing argument.\r\n");
+                switch(lower_case(bits[2])) {
+                case "fetch":
+                        TP("Doing fetch\n");
+                        load_folder(sess);
+                        if(sscanf(bits[3], "%d:%d", j, k) != 2) {
+                                sscanf(bits[3], "%d:*", j);
+                                k = sess->num_messages;
+                        }
 
-			for(i=j; i<k; i++) {
-				eventWrite(fd, " * " + i + " FETCH (FLAGS (\\Seen) UID " +
-									 sess->headers[i]->number + "\r\n");
-			}
-			eventWrite(fd, id + " UID FETCH completed\r\n");
-			TP("Ok, done\n");
-			break;
-		case "copy":
-		case "store":
-		}
-		break;
-		
+                        for(i=j; i<k; i++) {
+                                eventWrite(fd, " * " + i + " FETCH (FLAGS (\\Seen) UID " +
+                                                                         sess->headers[i]->number + "\r\n");
+                        }
+                        eventWrite(fd, id + " UID FETCH completed\r\n");
+                        TP("Ok, done\n");
+                        break;
+                case "copy":
+                case "store":
+                }
+                break;
+                
   default:
     eventWrite(fd, sprintf("-ERR Unknown command in %s state\r\n",
                            imap_states[sess->state]));
     break;
   }
-	TP("done parsing\n");
+        TP("done parsing\n");
 } /* parse_comm() */
 
 /** @ignore yes */

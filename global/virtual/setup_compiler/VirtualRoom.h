@@ -20,16 +20,16 @@ mixed set_short(mixed a1)
 
 mixed add_exit(string a1, string a2, string a3)
 {
-	if( file_size(a2) > 0 )
-		{ MyRoom->add_exit(a1,a2,a3); return; }
-	if( file_size(a2+".c") > 0 )
-		{ MyRoom->add_exit(a1,a2+".c",a3); return ; }
-	if( file_size(a2+".vrc") > 0 )
-		{ MyRoom->add_exit(a1,a2+".vrc",a3); return; }
-	if( file_size(a2+".r") > 0 )
-		{ MyRoom->add_exit(a1,a2+".r",a3); return; }
-	write("Error: Bad arg 2 to add_exit in virtual room");
-	return;
+        if( file_size(a2) > 0 )
+                { MyRoom->add_exit(a1,a2,a3); return; }
+        if( file_size(a2+".c") > 0 )
+                { MyRoom->add_exit(a1,a2+".c",a3); return ; }
+        if( file_size(a2+".vrc") > 0 )
+                { MyRoom->add_exit(a1,a2+".vrc",a3); return; }
+        if( file_size(a2+".r") > 0 )
+                { MyRoom->add_exit(a1,a2+".r",a3); return; }
+        write("Error: Bad arg 2 to add_exit in virtual room");
+        return;
 }
 
 mixed modify_exit(string m1, mixed *m2)

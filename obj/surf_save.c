@@ -19,8 +19,8 @@ void do_load() {
    if ( save_file ) {
       all_inventory( this_object() ) -> dest_me();
       if ( file_size( save_file + ".o" ) > 0 ) {
-	 unguarded((: restore_object, save_file :));
-	 if ( sizeof( details ) ) init_dynamic_arg( details );
+         unguarded((: restore_object, save_file :));
+         if ( sizeof( details ) ) init_dynamic_arg( details );
       }
    }
 } /* do_load() */

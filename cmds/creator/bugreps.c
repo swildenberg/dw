@@ -25,11 +25,11 @@ int cmd(string who){
 
    if(who == "all") {
       request = "select Reporter, count(*) as bing from errors "
-		   //"where Status = 'OPEN' "
+                   //"where Status = 'OPEN' "
                    "group by Reporter order by bing desc";
    } else {
       request = "select Reporter, count(*) as bing from errors "
-		   "where Reporter = '" + who + "'" // and Status = 'OPEN' "
+                   "where Reporter = '" + who + "'" // and Status = 'OPEN' "
                    "group by Reporter order by bing desc";
    }
 

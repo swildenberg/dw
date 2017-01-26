@@ -37,8 +37,8 @@ class imap_session {
   int state;                   /* state of the connection */
   int time;                    /* time of last command */
   string user_name;            /* user name */
-	string selected;             /* selected folder */
-	string command;              /* last command */
+        string selected;             /* selected folder */
+        string command;              /* last command */
   int *deleted;                /* list of deleted messages */
   int num_messages;            /* amount of messages in the folder */
   class mail_header *headers;  /* headers of messages in the folder */

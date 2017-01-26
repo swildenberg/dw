@@ -52,14 +52,14 @@ mixed cmd(object *things) {
   }
   add_succeeded_mess(({ "You will protect $I.\n",
                         "$N moves to protect $I.\n" }),
-	                protectees);
+                        protectees);
 
 /*
   for ( i = 0; i < sizeof( protectees ); i++ ) {
     tell_object( protectees[ i ], capitalize( (string)TP->the_short() ) +
-		" will protect "+
-		query_multiple_short(delete(protectees, i, 1) + ({"you"})) +
-		".\n" );
+                " will protect "+
+                query_multiple_short(delete(protectees, i, 1) + ({"you"})) +
+                ".\n" );
   }
  */
   return 1;

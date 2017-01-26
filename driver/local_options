@@ -130,7 +130,7 @@
  * The MudOS driver has evolved quite a bit over the years.  These defines  *
  * are mainly to preserve old behavior in case people didn't want to        *
  * rewrite the relevant portions of their code.                             *
- *									    *
+ *                                                                            *
  * In most cases, code which needs these defines should be rewritten when   *
  * possible.  The 'Compat status' field is designed to give an idea how     *
  * likely it is that support for that option will be removed in the near    *
@@ -804,13 +804,13 @@
  * config file.
  */
 /* MAX_LOCAL: maximum number of local variables allowed per LPC function */
-#define CFG_MAX_LOCAL_VARIABLES		50
+#define CFG_MAX_LOCAL_VARIABLES                50
 
-#define CFG_EVALUATOR_STACK_SIZE 	3000
-#define CFG_COMPILER_STACK_SIZE		600
-#define CFG_MAX_CALL_DEPTH		150
+#define CFG_EVALUATOR_STACK_SIZE         3000
+#define CFG_COMPILER_STACK_SIZE                600
+#define CFG_MAX_CALL_DEPTH                150
 /* This must be one of 4, 16, 64, 256, 1024, 4096 */
-#define CFG_LIVING_HASH_SIZE		256
+#define CFG_LIVING_HASH_SIZE                256
 
 /* NEXT_MALLOC_DEBUG: define this if using a NeXT and you want to enable
  *   the malloc_check() and/or malloc_debug() efuns.  Run the 'man malloc_debug'

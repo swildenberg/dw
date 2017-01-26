@@ -506,19 +506,19 @@ int query_possible(class situation_timing sit, int it, int tod, int cnt)
     foreach (sit2 in sittiming) {
       cnt2++;
       if (cnt2!=cnt && sit2->category == sit->category) {
-	it2=(tod+offset+(cnt2*234231))/sit2->duration;
-	tod2=it2*sit2->duration-offset-(cnt2*234231);
-	if (functionp(sit2->when)) possible2=(*(sit2->when))(tod2);
-	else possible2=sit2->when;
-	possible2=
-	  (possible2&(1<<((AM_TIME_HANDLER)->query_am_hour(tod2))))
-	  &&
-	  (RANDOM(1000,it2*1147483647+cnt2*2047483243) < sit2->chance);
-	//	tell_creator("shaggy","Comparing %O (%O %O %O %O %O %O)\n",sit2->label,possible2,sit2->when,(1<<((AM_TIME_HANDLER)->query_am_hour(tod2))),RANDOM(1000,it2*1147483647+cnt2*2047483243),tod2,it2);
-	if (possible2 && (tod2<tod || (tod==tod2 && cnt2<cnt))) {
-	  possible=0;
-	  break;
-	}
+        it2=(tod+offset+(cnt2*234231))/sit2->duration;
+        tod2=it2*sit2->duration-offset-(cnt2*234231);
+        if (functionp(sit2->when)) possible2=(*(sit2->when))(tod2);
+        else possible2=sit2->when;
+        possible2=
+          (possible2&(1<<((AM_TIME_HANDLER)->query_am_hour(tod2))))
+          &&
+          (RANDOM(1000,it2*1147483647+cnt2*2047483243) < sit2->chance);
+        //        tell_creator("shaggy","Comparing %O (%O %O %O %O %O %O)\n",sit2->label,possible2,sit2->when,(1<<((AM_TIME_HANDLER)->query_am_hour(tod2))),RANDOM(1000,it2*1147483647+cnt2*2047483243),tod2,it2);
+        if (possible2 && (tod2<tod || (tod==tod2 && cnt2<cnt))) {
+          possible=0;
+          break;
+        }
       }
     }
   }
@@ -572,7 +572,7 @@ void manage_situations() {
       possible=query_possible(sit, it, tod, cnt);
       sit->it_data[ it ]=possible;
       if (!undefinedp(sit->it_data[ it-1 ])) 
-	map_delete(sit->it_data,it-1);
+        map_delete(sit->it_data,it-1);
     } else {
       //      tell_creator("shaggy","Test for %O cached %O\n",sit->label,possible);
     }
@@ -580,45 +580,45 @@ void manage_situations() {
     if (possible) {
       if (sit->background) background_off+=explode(sit->background,",");
       if (arrayp(sit->label)) {
-	//      label=(sit->label) [((t % ttmp)*sizeof(sit->label))/tmp];
-	dt=(t % ttmp); 
-	i=0;
-	foreach (tc in sit->endat) {
-	  if (tc>dt) break;
-	  i++; 
-	} 
-	label=(sit->label)[i];
-	ttmp=tc-dt;
+        //      label=(sit->label) [((t % ttmp)*sizeof(sit->label))/tmp];
+        dt=(t % ttmp); 
+        i=0;
+        foreach (tc in sit->endat) {
+          if (tc>dt) break;
+          i++; 
+        } 
+        label=(sit->label)[i];
+        ttmp=tc-dt;
       }
       else label=sit->label;
       
       if (stringp(label)) {
-	label=explode(label,",");
-	newsits=newsits+label;
-	foreach(lb in label) choose_words(lb,it*1147483647+cnt*2047555777);
+        label=explode(label,",");
+        newsits=newsits+label;
+        foreach(lb in label) choose_words(lb,it*1147483647+cnt*2047555777);
       }
       else { 
-	newsits=newsits+({ label });
-	choose_words(label,it*1147483647+cnt*2047555777);
+        newsits=newsits+({ label });
+        choose_words(label,it*1147483647+cnt*2047555777);
       }
     }
     else {
       if (sit->background) background_on+=explode(sit->background,",");
       /* pretest next possible time to avoid retesting every situation,
-	 every time one of them might start */
+         every time one of them might start */
       /* possible values cached in it_data mapping */
       possible=sit->it_data[ it+1 ];
       /* If it's not in cache -- work it out */
       if (undefinedp(possible)) {
-	possible=query_possible(sit, it+1, tod+sit->duration, cnt);
-	sit->it_data[ it+1 ]=possible;
-	if (!undefinedp(sit->it_data[ it-1 ]))
-	  map_delete(sit->it_data,it-1);
+        possible=query_possible(sit, it+1, tod+sit->duration, cnt);
+        sit->it_data[ it+1 ]=possible;
+        if (!undefinedp(sit->it_data[ it-1 ]))
+          map_delete(sit->it_data,it-1);
       }
       if (possible) 
-	ttmp=ttmp-(t % ttmp); 
+        ttmp=ttmp-(t % ttmp); 
       else 
-	ttmp=2*ttmp-(t % ttmp);
+        ttmp=2*ttmp-(t % ttmp);
     }
 
     if (ttmp<tstep) tstep=ttmp;
@@ -770,12 +770,12 @@ void automate_situation( mixed label, mixed duration, mixed when, mixed chance,
     labels=({ });
     for (i=0;i<sizeof(duration);i++) {
       if (duration[i]!=-1) { 
-	d+=duration[i]; /* -1 means infinite duration background situation */
+        d+=duration[i]; /* -1 means infinite duration background situation */
         endat+=({ d });
-	labels=labels+({ label[i] });
+        labels=labels+({ label[i] });
       }
       else {
-	if (background) background=implode(explode(background,",")+({ label[i] }),",");
+        if (background) background=implode(explode(background,",")+({ label[i] }),",");
         else background=label[i];
       }
     }

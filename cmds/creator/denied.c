@@ -6,12 +6,12 @@ int cmd(string who){
   db = db_connect("localhost", "errors");
   if(who == "all")
     rows = db_exec(db, "select Reporter, count(*) as bing from errors "
-		   "where Status = 'DENIED' "
+                   "where Status = 'DENIED' "
                    "group by Reporter order by bing desc");
   else
     rows = db_exec(db, sprintf("select Reporter, count(*) from errors "
                                "where Reporter = '%s' and Status = 'DENIED' "
-			       "group by Reporter", 
+                               "group by Reporter", 
                                who));
   if(intp(rows)){
     ret = sprintf("%-15s %s\n", "player", "reports");

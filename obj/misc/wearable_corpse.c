@@ -52,5 +52,5 @@ mapping query_dynamic_auto_load() {
 }
 
 mixed *stats() {
-	return corpse::stats() + wearable::stats();
+        return corpse::stats() + wearable::stats();
 }

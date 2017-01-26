@@ -119,9 +119,9 @@ string *query_random_gossip() {
       return rumours[random(sizeof(rumours))];
    } else {
       if (sizeof(gossip))
-	 return gossip[random(sizeof(gossip))];
+         return gossip[random(sizeof(gossip))];
       else
-	 return 0;
+         return 0;
    }
 } /* query_random_gossip() */
 

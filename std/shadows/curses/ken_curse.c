@@ -59,7 +59,7 @@ void create() {
   trans = ([ ]);
   trans["stairs"] = "apples and pears";
   trans["Downstairs"] = "Down the apples and pears";
-  trans["downstairs"] =	"down the apples and pears";
+  trans["downstairs"] =        "down the apples and pears";
   trans["Upstairs"] = "Up the apples and pears";
   trans["upstairs"] = "up the apples and pears";
   trans["mouth"] = "North and South";
@@ -202,16 +202,16 @@ string mangle_speech(string str) {
       break;
     case '!' :
       tmp = tmp[0..strlen(tmp)-3]+ ({ ", cor blimey!", "! Struth!",
-		    ", guv!", " ! Honest guv!", ", mate! ", "!", })[random(6)];
+                    ", guv!", " ! Honest guv!", ", mate! ", "!", })[random(6)];
       break;
     case '.' :
       tmp = tmp[0..strlen(tmp)-3];
     default :
       tmp += ({
-		    ". I'll get out me spoons. ",
-		    ". Yer can't 'ave a knees-up wivout a joanna. ",
-		    ". Cor blimey guv, would I lie to you. ",
-		    ". I'll make us all a nice cup of tea. ",
+                    ". I'll get out me spoons. ",
+                    ". Yer can't 'ave a knees-up wivout a joanna. ",
+                    ". Cor blimey guv, would I lie to you. ",
+                    ". I'll make us all a nice cup of tea. ",
                })[random(4)];
   }
   return replace(tmp, ({ " !", "!", " .", ".", " ?", "?" }));

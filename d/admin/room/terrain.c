@@ -12,9 +12,9 @@ int do_list(string what);
 int do_member(string type, string params);
 int do_clear();
 int do_add(int floating, string file, int x1, int y1, int z1,
-	   int x2, int y2, int z2, int level);
+           int x2, int y2, int z2, int level);
 int do_remove(int floating, string file, int x1, int y1, int z1,
-	   int x2, int y2, int z2);
+           int x2, int y2, int z2);
 
 string terrain_name;
 object generator;
@@ -91,11 +91,11 @@ void init() {
     "floating <word'file'> <number'x1'> <number'y1'> <number'z1'> "
       "<number'x2'> <number'y2'> <number'z2'>",
     (: do_remove(1, $4[0], $4[1], $4[2], $4[3],
-		 $4[4], $4[5], $4[6]) :) );
+                 $4[4], $4[5], $4[6]) :) );
   add_command("remove",
     "floating <word'file'> <number'x'> <number'y'> <number'z'>",
     (: do_remove(2, $4[0], $4[1], $4[2], $4[3],
-		 0, 0, 0 ) :) );
+                 0, 0, 0 ) :) );
   add_command("clear", "", (: do_clear() :) );
 } /* init() */
 
@@ -245,8 +245,8 @@ int do_member( string type, string parameters ) {
 } /* do_member() */
 
 int do_add(int floating,
-	   string file, int x1, int y1, int z1,
-	   int x2, int y2, int z2, int level)
+           string file, int x1, int y1, int z1,
+           int x2, int y2, int z2, int level)
 {
   int *co_ords;
 
@@ -293,8 +293,8 @@ int do_add(int floating,
 } /* do_add() */
 
 int do_remove(int floating,
-	   string file, int x1, int y1, int z1,
-	   int x2, int y2, int z2)
+           string file, int x1, int y1, int z1,
+           int x2, int y2, int z2)
 {
   int *co_ords;
   if ( !terrain_name ) {

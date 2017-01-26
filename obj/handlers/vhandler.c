@@ -3,18 +3,18 @@
    Written by Sojan [sojan@ukcis.demon.co.uk] - 27/12/95
 
    Instructions for Use ..
-	call set_variable_value with a string parameter identifying the variable and a
-		second mixed value which is the value you want to store
-	to query it simply call query_variable_status with a string parameter that 
-		Identifies the variable
+        call set_variable_value with a string parameter identifying the variable and a
+                second mixed value which is the value you want to store
+        to query it simply call query_variable_status with a string parameter that 
+                Identifies the variable
 
     Things I know thats wrong with it atm ...
 
-	*NO checking for existing variables so you can overwrite other peoples - use your
-		name as part of the identifier or something atm ....
+        *NO checking for existing variables so you can overwrite other peoples - use your
+                name as part of the identifier or something atm ....
 
-	*It DOESN'T clear up variables that are no longer required - nor currently has code
-		to do so.
+        *It DOESN'T clear up variables that are no longer required - nor currently has code
+                to do so.
 
     Both these things will be fixed in a few days - I wrote this off the cuff for a creator
     With an unprounoucable name but I guess other people will find it useful.

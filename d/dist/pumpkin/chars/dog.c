@@ -269,31 +269,31 @@ void sic_em(object per, string mess) {
       obs = match_objects_for_existence(bing[1], environment());
       obs = filter_array(obs, (: living($1) :));
       if ( sizeof( obs ) ) {
-	 lvl = query_property( "excited" );
-	 add_property( "excited", lvl+1 );
-	 call_out( function( object npc ) {
-	    int lvl;
-	    
-	    lvl = npc->query_property("excited");
-	    if (lvl > 0)
-	       npc->add_property("excited", lvl - 1);
-	    else
-	       npc->remove_property("excited");
-	 }, 120, this_object());
-	 if (!lvl) {
-	    call_out("periodic_excited", 10+random(10));
-	 }
-	 switch (lvl) {
-	  case 0 :
-	    init_command("bounce excit");
-	    break;
-	  case 1 :
-	    init_command("growl "+obs[0]->query_name());
-	    break;
-	  default :
-	    call_out((: attack_ob($2) :), 0, obs[0]);
-	    break;
-	 }
+         lvl = query_property( "excited" );
+         add_property( "excited", lvl+1 );
+         call_out( function( object npc ) {
+            int lvl;
+            
+            lvl = npc->query_property("excited");
+            if (lvl > 0)
+               npc->add_property("excited", lvl - 1);
+            else
+               npc->remove_property("excited");
+         }, 120, this_object());
+         if (!lvl) {
+            call_out("periodic_excited", 10+random(10));
+         }
+         switch (lvl) {
+          case 0 :
+            init_command("bounce excit");
+            break;
+          case 1 :
+            init_command("growl "+obs[0]->query_name());
+            break;
+          default :
+            call_out((: attack_ob($2) :), 0, obs[0]);
+            break;
+         }
       }
    }
 } /* sic_em() */

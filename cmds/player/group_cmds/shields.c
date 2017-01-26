@@ -49,19 +49,19 @@ int do_shields( object *suggested_members, string group )
    
    foreach( member in check_for )
    {
-		 if(!member)
-			 continue;
-		 
-		 shields = cmd_shields->construct_shield_message( member, 1 );
-		 
-		 if( sizeof( shields ) ) {
+                 if(!member)
+                         continue;
+                 
+                 shields = cmd_shields->construct_shield_message( member, 1 );
+                 
+                 if( sizeof( shields ) ) {
          mess += "Arcane protection for " + colour +
-					 member->query_cap_name() + "%^RESET%^:-\n";
+                                         member->query_cap_name() + "%^RESET%^:-\n";
          mess += shields + "\n";
-		 } else {
-			 mess += colour + member->query_cap_name() +
-				 "%^RESET%^ has no arcane protection.\n\n";
-		 }
+                 } else {
+                         mess += colour + member->query_cap_name() +
+                                 "%^RESET%^ has no arcane protection.\n\n";
+                 }
    }
    
    if( sizeof( mess ) > 2 && mess[ sizeof( mess ) - 1 ] == '\n' )

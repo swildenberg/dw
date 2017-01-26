@@ -1396,9 +1396,9 @@ string shop_list(mixed arr, int detail) {
     }
     for(i = 0; i < sizeof(shorts); i++) {
         ind = inv[shorts[i]];
-	num = sizeof(ind);
-	if(num == 1 && ind[0]->query_collective())
-	  num = ind[0]->query_amount();
+        num = sizeof(ind);
+        if(num == 1 && ind[0]->query_collective())
+          num = ind[0]->query_amount();
 
         switch(num) {
         case 1:
@@ -1406,7 +1406,7 @@ string shop_list(mixed arr, int detail) {
             break;
         case 2..5 :
             s += capitalize(query_num(num, 0)+" "+
-			    (string)ind[0]->query_plural());
+                            (string)ind[0]->query_plural());
             break;
         default:
             if(detail) {

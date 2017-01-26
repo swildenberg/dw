@@ -7,11 +7,11 @@
 ::Plural:: "ketchup"
 ::$set_medium_alias:: "TomatoKetchup"
 ::$set_amount_types:: ([ "drop": ({ 1, "drops" }),
-			 "teaspoon": ({ 20, "teaspoons" }),
-			 "tablespoon": ({ 60, "tablespoons" }),
-			 "ounce": ({ 120, "ounces" }),
-			 "cup": ({ 960, "cups" }),
-			 "pint": ({ 2400, "pints" }),
+                         "teaspoon": ({ 20, "teaspoons" }),
+                         "tablespoon": ({ 60, "tablespoons" }),
+                         "ounce": ({ 120, "ounces" }),
+                         "cup": ({ 960, "cups" }),
+                         "pint": ({ 2400, "pints" }),
                          "quart": ({ 4800, "quarts" }),
                          "gallon": ({ 19200, "gallons" }) ])
 ::Adjective:: ({ "drop", "drops", "teaspoon", "teaspoons", "tablespoon",

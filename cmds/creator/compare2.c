@@ -22,7 +22,7 @@ string format_data( object *items, object victim, object target ) {
 
     default:
         return query_num( size, 100 ) + " objects in " + 
-        vname + "'s inventory were cloned by " + tname;		
+        vname + "'s inventory were cloned by " + tname;                
     }
 
 } /* format_data() */

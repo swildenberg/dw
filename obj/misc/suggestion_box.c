@@ -15,10 +15,10 @@ string _savedir, _savefile;
 void setup() {
   set_short( "suggestion box" );
   set_long( "This is a suggestion box.  It is sitting on a pole which puts"
-	    " the box at a convienient height for writing.  It has a pile "
-	    "of small papers on it on which you can write suggestions.  "
-	    "There is a slot in the top for stuffing the suggestion in "
-	    "when you're done.\n" );
+            " the box at a convienient height for writing.  It has a pile "
+            "of small papers on it on which you can write suggestions.  "
+            "There is a slot in the top for stuffing the suggestion in "
+            "when you're done.\n" );
   set_name( "box" );
   set_main_plural( "boxes" );
   set_read_mess( "\nPlease fill in a suggestion form", "common" );
@@ -95,7 +95,7 @@ int do_fill() {
   this_player()->do_edit( 0, "end_suggestion", this_object() );
   
   add_succeeded_mess( ({"", "$N fill$s in a suggestion form and stuff$s "
-			  "it in the box.\n" }) );
+                          "it in the box.\n" }) );
 
   return 1;
 }
@@ -118,12 +118,12 @@ void end_suggestion( string text ) {
 
   if( !(unguarded( (: write_file, file, text :) ) ) ) {
     tell_object( previous_object(), "Sorry, your suggestion was not recorded."
-		 "  Please use the 'bug object' command to bug report the "
-		 "suggestion box.\n" );
+                 "  Please use the 'bug object' command to bug report the "
+                 "suggestion box.\n" );
     return;
   }
 
   tell_object( previous_object(), "You fill in a suggestion form and stuff "
-	       "it in the box.\n" );
+               "it in the box.\n" );
 }
   

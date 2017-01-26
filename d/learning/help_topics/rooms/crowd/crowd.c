@@ -190,7 +190,7 @@ void create() {
   set_name("beggar");
   set_short("crowd of crowd.");
   set_long("This is a crowd of people.");
-  enable_commands();	
+  enable_commands();        
  
   crowd = ({ });
   for (j=0; j<sizeof(members);j++) {
@@ -265,7 +265,7 @@ object make_member() {
     
   frog = clone_object(members[i>>2]->file);
   if (frog) {
-    n_crowd--;	
+    n_crowd--;        
     n_cloned++;
     n_here++;
     n_max = (n_max+1)>>1;
@@ -436,7 +436,7 @@ mixed query_parse_id(mixed *arr) {
       if (i>n_max) i = n_max;
       while (i--) {
          arr[P_THING]--;
-	 things += ({ make_member() });
+         things += ({ make_member() });
       }
       if (!arr[P_THING]) arr[P_THING] = -10101;
       return things;

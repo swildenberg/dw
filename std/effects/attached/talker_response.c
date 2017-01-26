@@ -1,4 +1,4 @@
-	/**
+        /**
  * Talker Response effect/shadow pair
  * @see help::talker_response shadow
  */
@@ -35,7 +35,7 @@ mixed restart( object player, mixed arg, int id )
 /** @ignore yes */
 mixed merge_effect(object player, mixed oldarg, mixed newarg, int id)
 {
-	return oldarg;
+        return oldarg;
 }
 
 /** @ignore yes */

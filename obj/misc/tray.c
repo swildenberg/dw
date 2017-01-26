@@ -17,7 +17,7 @@ void create() {
   surface::create();
 }
 
-void setup() {	
+void setup() {        
   set_name( "tray" );
   set_short( "wooden tray" );
   set_long( "This is a small wooden tray, similar in style to the ones used by "
@@ -47,7 +47,7 @@ string long( string word, int dark ) {
 
 varargs int move( mixed dir, string messin, string messout ) {
   if ( holdable::move( dir, messin, messout ) == MOVE_OK ) {
-	  return surface::move( dir, messin, messout );
+          return surface::move( dir, messin, messout );
   }
   return MOVE_NO_UNHOLD;
 }
@@ -63,13 +63,13 @@ mapping map = ([ ]);
 
 void init_static_arg( mapping map ) {
   if (!undefinedp( map["holdable"] ) )
-	holdable::init_static_arg( map["holdable"] );
+        holdable::init_static_arg( map["holdable"] );
 
   if ( !undefinedp( map["surface"] ) && map["surface"] )
-	surface::init_static_arg( map["surface"] );
+        surface::init_static_arg( map["surface"] );
 
   if ( !undefinedp( map["wearable"] ) && map["wearable"] )
-	surface::init_static_arg( map["wearable"] );
+        surface::init_static_arg( map["wearable"] );
 
 }
 
@@ -89,15 +89,15 @@ mapping map = ([ ]);
 
 varargs void init_dynamic_arg( mapping map, mixed new_arg ) {
   if (!undefinedp( map["holdable"] ) )
-	holdable::init_dynamic_arg( map["holdable"] );
+        holdable::init_dynamic_arg( map["holdable"] );
 
   if ( !undefinedp( map["surface"] ) && map["surface"] )
-	surface::init_dynamic_arg( map["surface"] );
+        surface::init_dynamic_arg( map["surface"] );
 
   if ( !undefinedp( map["wearable"] ) && map["wearable"] )
-	surface::init_dynamic_arg( map["wearable"] );
+        surface::init_dynamic_arg( map["wearable"] );
 }
 
 mixed stats() { 
-	return surface::stats() + wearable::stats();
+        return surface::stats() + wearable::stats();
 }

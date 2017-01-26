@@ -83,7 +83,7 @@ mixed cmd(string str) {
 
         default:
             write( "Unable to copy " + src + " to " + dest + "\n" );
-        }			
+        }                        
     }
 
 if ( show_ok ) {

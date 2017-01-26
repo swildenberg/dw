@@ -12,7 +12,7 @@
  * a player has permission to specific things.
  *
  * These types are implemented so far:
- * "trace":		If the player is allowed to use tracing.
+ * "trace":                If the player is allowed to use tracing.
  * "wizard":            Is the player considered at least a "minimal" wizard?
  * "error messages":    Is the player allowed to get run time error messages?
  */

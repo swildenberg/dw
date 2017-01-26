@@ -403,7 +403,7 @@ void move_on() {
   }
 
   if (objectp(_car_driver)) {
-     _car_driver->next_stop_from_carriage(_n_name);	
+     _car_driver->next_stop_from_carriage(_n_name);        
   }
 
   _current_stop = _next_stop;

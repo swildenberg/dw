@@ -107,7 +107,7 @@ varargs int wear_remove_function(object pet, object thing) {
     }
 }
 
-/**		
+/**                
  * Inheritance overriding to organise the shared functions
  */
 

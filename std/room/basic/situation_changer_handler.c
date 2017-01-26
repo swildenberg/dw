@@ -45,7 +45,7 @@ object set_room(object room_o) {
 
 void dest_me() {
   //  tell_creator("shaggy","Test Desting %O %O\n,",this_object(),
-  //	       sizeof(children(base_name(this_object()))));
+  //               sizeof(children(base_name(this_object()))));
 
   if (clonep()) ::dest_me();
   else if (sizeof(children(base_name(this_object())))==1) ::dest_me();

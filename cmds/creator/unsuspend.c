@@ -24,7 +24,7 @@ mixed cmd(string str) {
   if (!"/secure/master"->query_lord(geteuid(previous_object())) &&
       !"/d/liaison/master"->query_deputy(geteuid(previous_object())))
     return notify_fail("You must be a lord or liaison deputy to unsuspend "
-		       "someone.");
+                       "someone.");
 
   notify_fail("We failed!\n");
   if (!"/secure/bastards"->unsuspend_person(str))

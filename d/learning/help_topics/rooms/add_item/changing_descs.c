@@ -13,21 +13,21 @@ void setup() {
             "This room is crap, and uses a non longer valid way of changing "
             "descriptions, if you see anything like this, be sure to bug "
             "report it.\nAlso note that \"I\" is Mithal:)\n"
-	    +"There are a few other uses for the pasting function. One of "
-	    +"them is to provide descriptions that change depending on "
-	    +"certan variables.  In this room there is a chest.  Every other "
-	    +"time you look at it, it is open.  In the code there is a "
-	    +"global variable 'open' that is switched between 1 and 0 every "
-	    +"time 'look_chest' is called.  The function returns 'The chest "
-	    +"is open' if open == 1, else 'The chest is closed'. "
-	    +"Unfortunately, the exact code cannot be put here... since the "
-	    +"pasting function would work as you read the help text. *smile* "
-	    +"Thus & is used in place of @ in the example code.\n"
-	    +"A chest.\nA note.\n");
+            +"There are a few other uses for the pasting function. One of "
+            +"them is to provide descriptions that change depending on "
+            +"certan variables.  In this room there is a chest.  Every other "
+            +"time you look at it, it is open.  In the code there is a "
+            +"global variable 'open' that is switched between 1 and 0 every "
+            +"time 'look_chest' is called.  The function returns 'The chest "
+            +"is open' if open == 1, else 'The chest is closed'. "
+            +"Unfortunately, the exact code cannot be put here... since the "
+            +"pasting function would work as you read the help text. *smile* "
+            +"Thus & is used in place of @ in the example code.\n"
+            +"A chest.\nA note.\n");
 
    
    add_item("note", ({ "long", "It can be read.",
-		       "read", "Here is the code for the chest:\n"
+                       "read", "Here is the code for the chest:\n"
        +"   add_item(\"chest\",\"The Chest is \"+\n"
       +"        \"&&look_chest:\"+file_name(this_object())+\"&&\\n\");\n\n"
      +"Again, the & signs are used to represent @ signs.\n"

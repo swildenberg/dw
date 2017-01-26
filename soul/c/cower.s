@@ -31,7 +31,7 @@
      (arguments
        (arguments before)
           (self "You cower $arg$ $hcname$.")
-	  (target "$mcname$ cowers $arg$ you.")
+          (target "$mcname$ cowers $arg$ you.")
           (rest  "$mcname$ cowers $arg$ $hcname$".)
       )
    )

@@ -82,8 +82,8 @@ int get_stat_bit( string word ) {
    if ( word == "save" ) {
       if ( POOL ) {
          write( "WARNING: You still have points left in your pool that "
-		   "could be used to make your character more powerful. If you "
-		   "leave these unspent now, you will not be able to get them again later. "
+                   "could be used to make your character more powerful. If you "
+                   "leave these unspent now, you will not be able to get them again later. "
            "Are you sure you want to save? [y/n] " );
          input_to( "get_check" );
          return 1;

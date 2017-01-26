@@ -24,8 +24,8 @@
     )
     (arguments
     (arguments like a lunatic, insolently, lustily, eerily, softly, with glee, 
-	              hungrily, up and down the scale, for peanut butter, unabashedly,
-	              like Angua, #)
+                      hungrily, up and down the scale, for peanut butter, unabashedly,
+                      like Angua, #)
     (self "You HOOOOOWWWWWWWWWLLLLLL $arg$ at $hcname$.")
     (target "$mcname$ howl$s$ $arg$ at you.")
     (rest "$mcname$ howl$s$ $arg$ at $hcname$.")

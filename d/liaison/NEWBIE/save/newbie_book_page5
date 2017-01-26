@@ -10,18 +10,18 @@ Page 5
 .EC
 
 .SO 3 40 -26
-	'%^YELLOW%^tactics%^RESET%^'	Will show your combat tactics.  Read 'help tactics' for information on how to use it.
+        '%^YELLOW%^tactics%^RESET%^'        Will show your combat tactics.  Read 'help tactics' for information on how to use it.
 .EO
 
 .SP 5 5
 Other commands worth checking out, or read the help files for, are:
 .EP
 .SO 3 40 -26
-	'%^YELLOW%^alias%^RESET%^'
-	'%^YELLOW%^earmuff%^RESET%^'
-	'%^YELLOW%^commands%^RESET%^'
-	'%^YELLOW%^nickname%^RESET%^'
-	'%^YELLOW%^consider%^RESET%^'
-	'%^YELLOW%^gp%^RESET%^'
-	'%^YELLOW%^playerkilling%^RESET%^'
+        '%^YELLOW%^alias%^RESET%^'
+        '%^YELLOW%^earmuff%^RESET%^'
+        '%^YELLOW%^commands%^RESET%^'
+        '%^YELLOW%^nickname%^RESET%^'
+        '%^YELLOW%^consider%^RESET%^'
+        '%^YELLOW%^gp%^RESET%^'
+        '%^YELLOW%^playerkilling%^RESET%^'
 .EO

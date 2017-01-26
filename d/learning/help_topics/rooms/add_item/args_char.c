@@ -9,17 +9,17 @@ void setup() {
    set_light(100);
 
    set_long("add_item room #12, Getting character arguments\n"
-	    +"There is a large stone in the middle of the room.  It looks as "
-	    +"if you can engrave your name onto it.\nSource code.\n");
+            +"There is a large stone in the middle of the room.  It looks as "
+            +"if you can engrave your name onto it.\nSource code.\n");
 
-   			 
+                            
    add_item("large stone", ({
-	        "long",
-	                   "It can be engraved."
-		,"engrave",
-			   ({ this_object(), "do_engrave",
-				"'into' %D 'the' text' %s"  })
-	}));
+                "long",
+                           "It can be engraved."
+                ,"engrave",
+                           ({ this_object(), "do_engrave",
+                                "'into' %D 'the' text' %s"  })
+        }));
 
    
 
@@ -29,12 +29,12 @@ void setup() {
          "The source code:\n"
 +"\n"
 +"   add_item(\"large stone\", ({\n"
-+"	        \"long\",\n"
-+"	                   \"It can be engraved.\"\n"
-+"		,\"engrave\",\n"
-+"			   ({ this_object(), \"do_engrave\",\n"
-+"				\"'into' %D 'the' text' %s\"  })\n"
-+"	}));\n"
++"                \"long\",\n"
++"                           \"It can be engraved.\"\n"
++"                ,\"engrave\",\n"
++"                           ({ this_object(), \"do_engrave\",\n"
++"                                \"'into' %D 'the' text' %s\"  })\n"
++"        }));\n"
 +"\n\nRead also:  do_engrave\n" }));
 
    add_item("do_engrave", ({ "long",  
@@ -46,8 +46,8 @@ void setup() {
 +"     string mess;\n"
 +"        mess =  \"$N $V \"+a5[1]+\" into \"+a3+\".\\n\";\n"
 +"        this_player()->add_succeeded_mess(previous_object(),\n"
-+"					        mess,\n"
-+"					        ({}));\n"
++"                                                mess,\n"
++"                                                ({}));\n"
 +"        return 1;\n"
 +"}\n"
 +"\n" }));
@@ -57,14 +57,14 @@ void setup() {
    add_exit("north",MAIN,"door" );
 
  }
-						     
+                                                     
 int do_engrave(mixed a1,mixed a2,mixed a3,mixed a4, mixed a5, mixed a6)
 {
      string mess;
         mess =  "$N $V "+a5[1]+" into "+a3+".\n";
         this_player()->add_succeeded_mess(previous_object(),
-					        mess,
-					        ({}));
+                                                mess,
+                                                ({}));
         return 1;
 }
 

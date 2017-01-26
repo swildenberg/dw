@@ -8,8 +8,8 @@
       (arguments  happiness,two wombles,the future,#)
       (self "You propose a toast to $arg$.")
       (rest "$mcname$ propose$s$ a toast to $arg$")
-	)
-	)
+        )
+        )
   (targeted
     (no-arguments 
       (self   "You raise your glass and toast $hcname$.")

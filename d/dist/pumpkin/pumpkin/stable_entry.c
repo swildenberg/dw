@@ -32,7 +32,7 @@ void setup() {
               "meant to be abstract?\n");
  
    room_chat( ({ 50, 50, ({
- 		  "A horseman rides through the gates and dismounts. "+
+                   "A horseman rides through the gates and dismounts. "+
              "A stable boy rushes forward and leads the horse to a stall "+
              "while the rider leaves.",
              "One of the horses rears up in its stall, but can't "+

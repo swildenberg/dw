@@ -27,9 +27,9 @@ void initialize_methods() {
 
 object compile_c(string name, int clone) {
     if (!clone) {
-	name->go_ahead_make_my_womble();
-	return efun::find_object(name);    /* If simul_efun done */
+        name->go_ahead_make_my_womble();
+        return efun::find_object(name);    /* If simul_efun done */
     } else {
-	return efun::clone_object(name);   /*       -- || --     */
+        return efun::clone_object(name);   /*       -- || --     */
     }
 } /* compile_c() */

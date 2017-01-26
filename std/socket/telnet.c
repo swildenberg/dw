@@ -31,14 +31,14 @@
 #define TELOPT_NAWS  31
 
 nosave string *telopts = ({"BINARY", "ECHO", "RCP", "SUPPRESS GO AHEAD",
-			"NAME", "STATUS", "TIMING MARK", "RCTE", "NAOL", "NAOP",
-		    "NAOCRD", "NAOHTS", "NAOHTD", "NAOFFD", "NAOVTS",
-		    "NAOVTD", "NAOLFD", "EXTEND ASCII", "LOGOUT", "BYTE MACRO",
-		    "DATA ENTRY TERMINAL", "SUPDUP", "SUPDUP OUTPUT",
-		    "SEND LOCATION", "TERMINAL TYPE", "END OF RECORD",
-		    "TACACS UID", "OUTPUT MARKING", "TTYLOC",
-		    "3270 REGIME", "X.3 PAD", "NAWS", "TSPEED", "LFLOW",
-		    "LINEMODE"});
+                        "NAME", "STATUS", "TIMING MARK", "RCTE", "NAOL", "NAOP",
+                    "NAOCRD", "NAOHTS", "NAOHTD", "NAOFFD", "NAOVTS",
+                    "NAOVTD", "NAOLFD", "EXTEND ASCII", "LOGOUT", "BYTE MACRO",
+                    "DATA ENTRY TERMINAL", "SUPDUP", "SUPDUP OUTPUT",
+                    "SEND LOCATION", "TERMINAL TYPE", "END OF RECORD",
+                    "TACACS UID", "OUTPUT MARKING", "TTYLOC",
+                    "3270 REGIME", "X.3 PAD", "NAWS", "TSPEED", "LFLOW",
+                    "LINEMODE"});
 
 nosave string s_iac_dont_echo;
 nosave string s_iac_do_echo;
@@ -83,7 +83,7 @@ protected void init_tel_neg()
 void
 set_callback(string arg)
 {
-	callback = arg;
+        callback = arg;
 }
 
 void create()
@@ -97,13 +97,13 @@ void create()
 void
 set_verbosity(int v)
 {
-	verbose = v;
+        verbose = v;
 }
 
 int
 query_connected()
 {
-	return connected;
+        return connected;
 }
 
 void disconnected()

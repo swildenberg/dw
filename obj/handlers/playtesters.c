@@ -619,9 +619,9 @@ string query_show_list_colour() {
         }
         temp += sprintf( "%%s%-12s%%%%^RESET%%%%^", name );
         foreach ( string month in months[ <5.. ] ) {
-	          if (query_leave (name)) {
-                    colour = "%%^WHITE%%^";	            
-	          }        			
+                  if (query_leave (name)) {
+                    colour = "%%^WHITE%%^";                    
+                  }                                
             else if ( sizeof( bugs[ name ][ month ] ) >= 2 ) {
 
                 reports += bugs[ name ][ month ][ 0 ];

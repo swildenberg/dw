@@ -46,7 +46,7 @@ int do_order( object *indir, string indir_match, string dir_match,
                                    "$D smiles happily.\n", ({ }) );
       tell_object( my_owner,
                   (string)this_object()->the_short() +
-		   " tells you: Thank you.\n");
+                   " tells you: Thank you.\n");
       if ( summoned ) {
          call_out( "go_away", 1 );
       } else {
@@ -67,7 +67,7 @@ int do_order( object *indir, string indir_match, string dir_match,
       this_player()->add_succeeded_mess( this_object(), 
                                         "$N $V $D to protect $I.\n ", ({ indir[ 0 ] }) );
       this_object()->do_command( "protect "+
-				 (string)indir[ 0 ]->query_name() );
+                                 (string)indir[ 0 ]->query_name() );
    } else {
       if ( !indir ) {
          my_owner->add_failed_mess( this_object(), 
@@ -81,11 +81,11 @@ int do_order( object *indir, string indir_match, string dir_match,
          return 0;
       };
       tell_object( my_enemy, (string)this_object()->the_short() +
-		   " tells you:  "+ 
+                   " tells you:  "+ 
                   (string)my_owner->the_short() 
                   +" has asked me to kill you.\nPrepare to die!\n" );
       tell_object( my_owner, this_object()->the_short() +
-		   " tells you: Fine.\n" );
+                   " tells you: Fine.\n" );
    }
    return 1;
 }
@@ -96,7 +96,7 @@ int do_help( object *indir, string indir_match, string dir_match,
      return 0;
    this_player()->add_succeeded_mess( this_object(), 
                                      "You can \"order\" "+
-				      this_object()->the_short() 
+                                      this_object()->the_short() 
                                      +" to kill someone or to leave.\n ", ({ }) );
    return 1;
 }
@@ -210,7 +210,7 @@ int do_leave() {
 int attack_by( object ob ) {
    if ( summoned && !my_owner ) {
       say( this_object()->the_short()
-	   +" says: I will not fight without an owner!\n");
+           +" says: I will not fight without an owner!\n");
       call_out("go_away",0);
       return 1; 
    }

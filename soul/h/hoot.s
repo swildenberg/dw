@@ -15,10 +15,10 @@
          cheekily,idiotically,wryly,sceptically,derisively,annoyingly,absentmindedly,
          whilst you work,distractedly,pointlessly,silently,loudly,rudely,with laughter,vaguely,
          obviously,tunelessly,#)
-	      (self   "You hoot $arg$ at $hcname$.")
-	      (target "$mcname$ hoot$s$ $arg$ at you.")
-	      (rest  "$mcname$ hoot$s$ $arg$ at $hcname$.")
-	    )
-	  )
-	)
+              (self   "You hoot $arg$ at $hcname$.")
+              (target "$mcname$ hoot$s$ $arg$ at you.")
+              (rest  "$mcname$ hoot$s$ $arg$ at $hcname$.")
+            )
+          )
+        )
 /*Hobbes 970805*/

@@ -48,7 +48,7 @@ mixed do_club(string club_name, object *players) {
                                CLUB_HANDLER->query_club_name(club_name) +
                                "' with an invite from $I.\n",
                                ({ ob }) );
-	       ob->remove_respond_command(CLUB_RESPOND_TYPE, ob);
+               ob->remove_respond_command(CLUB_RESPOND_TYPE, ob);
                ok++;
                all_inventory(this_player())->event_joined_club(this_player(),
                                                                club_name);
@@ -95,7 +95,7 @@ int do_family(string family,
       if (frog && frog->family) {
          if (lower_case(frog->family) == lower_case(family)) {
             // Whooo!  Found the family!  They accept the relationship!
-  	    if (lower_case(frog->relationship) != lower_case(relationship)) {
+              if (lower_case(frog->relationship) != lower_case(relationship)) {
                add_failed_mess("You were asked to have the relationship of '" +
                      CLUB_HANDLER->query_relationship_gender(frog->relationship,
                                      this_player()->query_female()) +
@@ -105,7 +105,7 @@ int do_family(string family,
                                "' in the family '" +
                                CLUB_HANDLER->query_club_name(frog->family) +
                                "'.\n");
-	    } else if (CLUB_HANDLER->is_relationship(frog->family,
+            } else if (CLUB_HANDLER->is_relationship(frog->family,
                                                      this_player()->query_name(),
                                                      ob->query_name(),
                                                      relationship) &&
@@ -136,7 +136,7 @@ int do_family(string family,
                   }
                   this_player()->set_family_name(frog->family);
                }
-	       if (!CLUB_HANDLER->is_relationship(frog->family,
+               if (!CLUB_HANDLER->is_relationship(frog->family,
                                                   this_player()->query_name(),
                                                   ob->query_name(),
                                                   relationship)) {
@@ -185,5 +185,5 @@ mixed *query_patterns() {
             "relationship from <indirect:living:here> to <string'family'> as <string'relationship'>",
                 (: do_family($4[1], $4[2], $1) :),
             "relationship from <indirect:living:here> as <string'relationship'>",
-	       (: do_family(this_player()->query_family_name(), $4[1], $1) :) });
+               (: do_family(this_player()->query_family_name(), $4[1], $1) :) });
 } /* query_patterns() */

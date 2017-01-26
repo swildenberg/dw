@@ -9,7 +9,7 @@
       (rest "$mcname$ curtsies.")
     )
     (arguments
-      (arguments  gracefully, humbly, quickly, low, slightly, prettily, 	
+      (arguments  gracefully, humbly, quickly, low, slightly, prettily,         
                   handsomely, surlishly, extravagantly, #)
       (self "You curtsey $arg$.")
       (rest "$mcname$ curtsies $arg$.")
@@ -22,7 +22,7 @@
       (rest  "$mcname$ curtsies to $hcname$.")
     )
     (arguments
-      (arguments  gracefully, humbly, quickly, low, slightly, prettily, 	
+      (arguments  gracefully, humbly, quickly, low, slightly, prettily,         
                   handsomely, surlishly, extravagantly, #)
       (self   "You curtsey $arg$ to $hcname$.")
       (target "$mcname$ curtsies $arg$ before you.")

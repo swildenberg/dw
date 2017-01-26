@@ -9,16 +9,16 @@ void setup() {
    set_light(100);
 
    set_long("add_item room #6, making verbs do stuff, better version\n"
-	    +"There are two ways to call a function if a verb is used.  "
-	    +"This room demonstrates the second one.  "
-       	    +"Lets say you have a rat in a room and randomly ( one out of "
-	    +"two times lets say ) want to let players touch it. "
-	    +"This is how you could do it.\n"
-	    +"A filthy rat and a can.\nA ratnote and a cannote.\n");
+            +"There are two ways to call a function if a verb is used.  "
+            +"This room demonstrates the second one.  "
+                   +"Lets say you have a rat in a room and randomly ( one out of "
+            +"two times lets say ) want to let players touch it. "
+            +"This is how you could do it.\n"
+            +"A filthy rat and a can.\nA ratnote and a cannote.\n");
 
    
    add_item("ratnote", ({ "long", "It can be read.",
-		       "read", "Here is the code for the rat:\n"
+                       "read", "Here is the code for the rat:\n"
      +"   add_item(\"large filthy rat\", ({\n"
      +"        \"long\",\n"
      +"           \"It looks like it wants to be touched.\\n\"\n"
@@ -39,15 +39,15 @@ void setup() {
    
 
    add_item("dirty can", ({
-	        "long",
-	                   "It looks like it wants to be touched."
-		,"touch",
+                "long",
+                           "It looks like it wants to be touched."
+                ,"touch",
                              ({ this_object(), "always_fail" })
                    }));
 
       
    add_item("cannote", ({ "long", "It can be read.",
-		          "read", "Here is the code for the can:\n"
+                          "read", "Here is the code for the can:\n"
      +"   add_item(\"dirty can\", ({\n"
      +"        \"long\",\n"
      +"           \"It looks like it wants to be touched.\\n\"\n"
@@ -63,9 +63,9 @@ void setup() {
    
 
    add_item("large filthy rat", ({
-	        "long",
-	                   "It looks like it wants to be touched."
-		,"touch",
+                "long",
+                           "It looks like it wants to be touched."
+                ,"touch",
                              ({ this_object(), "do_touch" })
                    }));
 
@@ -80,9 +80,9 @@ int  do_touch()
   if( random(2) ) {
       /* Code to infect this_player() */
       tell_object(this_player(),"\n ****  You feel deathly sick. ****\n  "
-		              "(this is a tell_object(this_player(),...)) \n");
+                              "(this is a tell_object(this_player(),...)) \n");
       tell_object(this_player(),
-		  "do_touch is returning a 0, indicating failure!\n");
+                  "do_touch is returning a 0, indicating failure!\n");
       return 0;
     }
 

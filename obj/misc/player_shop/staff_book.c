@@ -200,8 +200,8 @@ void set_office( string office )
      " may use the \"correction\" facility to note the error.  This will\n"
      " not erase the error, but will clarify that an error has been made.\n"
      " The syntax is the same as that of \"log\".\n\n"
-	  " Please note that these are examples only, and you may be using a different\n"
-	  " currency.\n\n",
+          " Please note that these are examples only, and you may be using a different\n"
+          " currency.\n\n",
      "common", 100 );
 
    set_open_page( 9 );

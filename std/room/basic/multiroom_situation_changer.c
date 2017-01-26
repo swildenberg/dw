@@ -250,14 +250,14 @@ void manage_situations(object room) {
       if (functionp(sit[2])) possible=(*(sit[2]))();
       else possible=sit[2];
       possible=
-	(possible&(1<<((AM_TIME_HANDLER)->query_am_hour(it*ttmp-offset))))
-	&&
-	(RANDOM(1000,it*1147483647+cnt*2047483243) < sit[3]);
+        (possible&(1<<((AM_TIME_HANDLER)->query_am_hour(it*ttmp-offset))))
+        &&
+        (RANDOM(1000,it*1147483647+cnt*2047483243) < sit[3]);
     }
     if (possible) {
       if (arrayp(sit[0])) {
-	num=(sit[0]) [((t % ttmp)*sizeof(sit[0]))/ttmp];
-	ttmp=ttmp/sizeof(sit[0]);
+        num=(sit[0]) [((t % ttmp)*sizeof(sit[0]))/ttmp];
+        ttmp=ttmp/sizeof(sit[0]);
       }
       else num=sit[0];
       if (member_array(num,newsits)==-1) newsits=newsits+({ num });

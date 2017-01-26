@@ -245,7 +245,7 @@ int cmd_normal( object* from ) {
       }
 
       if(!sizeof(zones)) {
-      	write(from[i]->the_short() +
+              write(from[i]->the_short() +
               " does not protect any parts of your body.\n");
       } else {
         write(from[i]->the_short() + " protects your " +

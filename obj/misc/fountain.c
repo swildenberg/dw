@@ -105,30 +105,30 @@ object water;
   call_out( (: $(water)->move( this_object() ) :), 1 );
 
   switch( water->query_amount() ) {
-	case 0 .. VOLUME_SHOT:
+        case 0 .. VOLUME_SHOT:
       tell_room( environment(), sprintf( "$C$%s %s into %s.\n",
-  	  water->a_short(), ({ "trickles", "seeps", "dribbles" })[random(3)],
-	  this_object()->the_short() ) );
+            water->a_short(), ({ "trickles", "seeps", "dribbles" })[random(3)],
+          this_object()->the_short() ) );
       break;
     case VOLUME_SHOT + 1 .. VOLUME_PINT:
       tell_room( environment(), sprintf( "$C$%s %s into %s.\n",
-		water->a_short(),  ({ "flows", "splashes", "pours" })[random(3)],
-		this_object()->the_short() ) );
+                water->a_short(),  ({ "flows", "splashes", "pours" })[random(3)],
+                this_object()->the_short() ) );
       break;
     case VOLUME_PINT + 1 .. VOLUME_LITRE:
       tell_room( environment(), sprintf( "$C$%s %s into %s.\n",
-		water->a_short(), ({ "streams", "cascades", "sloshes" })[random(3)],
-		this_object()->the_short() ) );
+                water->a_short(), ({ "streams", "cascades", "sloshes" })[random(3)],
+                this_object()->the_short() ) );
       break;
     case VOLUME_LITRE + 1 .. VOLUME_QUART:
       tell_room( environment(), sprintf( "$C$%s %s into %s.\n",
-	    water->a_short(), ({ "gushes", "courses", "swirls" })[random(3)],
+            water->a_short(), ({ "gushes", "courses", "swirls" })[random(3)],
         this_object()->the_short() ) );
       break;
     default: //surge, flood
       tell_room( environment(), sprintf( "$C$%s %s into %s.\n",
         water->a_short(), ({ "floods", "surges", "washes" })[random(3)],
-  	    this_object()->the_short() ) );
+              this_object()->the_short() ) );
       break;
   }
   call_out( "make_water", _time );

@@ -34,5 +34,5 @@
         (target "$mcname$ riddle$s$ you with one hand tied behind $mposs$ back.")
         (rest   "$mcname$ riddle$s$ $hcname$ with one hand tied behind $mposs$ back.")
     )
-  )	
+  )        
 )

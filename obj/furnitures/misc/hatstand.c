@@ -19,7 +19,7 @@ void setup(){
   set_max_weight(200);
   set_allowed_room_verbs((["standing" : "stands",
                            "looming"  : "looms"  ]));
-	set_put_aliases(({"hang"}));
+        set_put_aliases(({"hang"}));
   set_value(75000);
 
 }

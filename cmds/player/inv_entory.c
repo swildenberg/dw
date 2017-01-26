@@ -34,7 +34,7 @@ mixed cmd()
       return 1;
    }
    write(sprintf("You are %s by:\n", this_player()->burden_string()) + 
-	 this_player()->query_living_contents(1));
+         this_player()->query_living_contents(1));
 
    if (this_player()->query_auto_loading()) {
       write("\n%^YELLOW%^Please note that your inventory is still being "

@@ -71,40 +71,40 @@ protected string newbie(string str) {
   string ret;
   int i;
   says = ({
-	"Are you a creator?\n", 
-	"How can I level in this mud?\n",
-	"How do I kill things?\n", 
-	"This is nothing like my nintendo... where are the baddies?\n", 
-	"Where can I get a good weapon?\n",
-	"Where do I get money?\n",
-	"I'm going to kill you now. Prepare to die.\n",
-	"All mudders stink.\n",
-	"How can I do those funny nudge and poke things?\n",
-	"Why can't I see invisible people?\n",
-	"I still don't get this. Who's Terry Pratchett?\n",
-	"I'm going back to Diku's, they're much better.\n",
-	"Can you tell me where a good quest is?\n",
-	"I hate this mud.\n",
-	"I'm not really saying this; I've been possessed.\n",
-	"Personally, I prefer Volkswagens.\n",
-	"What do you mean?\n",
-	"Isn't there something you can do?\n",
-	"Can you show me what happens when you PK, please?\n",
-	"Why can't I kill you? It keeps giving a funny message...\n",
-	"I've got a great bug for getting xp...\n",
-	"How do I join a guild?\n",
-	"How do I go berzerk?\n",
-	"I'll be fourteen next week.\n",
-	"Where are you in RL?\n",
-	"I'm bored. How do I win?\n",
-	"Hit me.\n",
-	"I'm a newbie! I'm a newbie!\n",
-	"If I said you had a beautfiul body...\n",
-	"Underground, Overground, wombling free.\n"
-	});
+        "Are you a creator?\n", 
+        "How can I level in this mud?\n",
+        "How do I kill things?\n", 
+        "This is nothing like my nintendo... where are the baddies?\n", 
+        "Where can I get a good weapon?\n",
+        "Where do I get money?\n",
+        "I'm going to kill you now. Prepare to die.\n",
+        "All mudders stink.\n",
+        "How can I do those funny nudge and poke things?\n",
+        "Why can't I see invisible people?\n",
+        "I still don't get this. Who's Terry Pratchett?\n",
+        "I'm going back to Diku's, they're much better.\n",
+        "Can you tell me where a good quest is?\n",
+        "I hate this mud.\n",
+        "I'm not really saying this; I've been possessed.\n",
+        "Personally, I prefer Volkswagens.\n",
+        "What do you mean?\n",
+        "Isn't there something you can do?\n",
+        "Can you show me what happens when you PK, please?\n",
+        "Why can't I kill you? It keeps giving a funny message...\n",
+        "I've got a great bug for getting xp...\n",
+        "How do I join a guild?\n",
+        "How do I go berzerk?\n",
+        "I'll be fourteen next week.\n",
+        "Where are you in RL?\n",
+        "I'm bored. How do I win?\n",
+        "Hit me.\n",
+        "I'm a newbie! I'm a newbie!\n",
+        "If I said you had a beautfiul body...\n",
+        "Underground, Overground, wombling free.\n"
+        });
   ret = str;
   if (random(100) > 30) {
-	ret = (says[(random(sizeof(says)))]);
+        ret = (says[(random(sizeof(says)))]);
   }
   return ret;
 } /* newbie() */
@@ -115,43 +115,43 @@ protected string newbie_emote(string str) {
   string ret;
   int i;
   emotes_male = ({
-	"looks extremely puzzled.\n",
-	"stares around myopically.\n",
-	"is obviously hugely well muscled.\n",
-	"is a black belt in real life.\n",
-	"stares at you intimidatingly.\n",
-	"is stunningly masculine.\n",
-	"has a real life as well as this mud stuff.\n",
-	"doesn't like mud geeks.\n",
-	"is a creator on another mud.\n",
-	"is a creator on this mud.\n",
-	"hasn't looked back after the first twelve million xp.\n",
-	"has been asked to be a creator, but turned it down.\n",
-	"has loads of girlfriends.\n",
-	"has been told he looks like Richard Gere in rl.\n",
-	"was consulted for the joy of sex.\n",
-	"wonders why anyone would ever drive anything other than a Porsche.\n"
-	});
+        "looks extremely puzzled.\n",
+        "stares around myopically.\n",
+        "is obviously hugely well muscled.\n",
+        "is a black belt in real life.\n",
+        "stares at you intimidatingly.\n",
+        "is stunningly masculine.\n",
+        "has a real life as well as this mud stuff.\n",
+        "doesn't like mud geeks.\n",
+        "is a creator on another mud.\n",
+        "is a creator on this mud.\n",
+        "hasn't looked back after the first twelve million xp.\n",
+        "has been asked to be a creator, but turned it down.\n",
+        "has loads of girlfriends.\n",
+        "has been told he looks like Richard Gere in rl.\n",
+        "was consulted for the joy of sex.\n",
+        "wonders why anyone would ever drive anything other than a Porsche.\n"
+        });
 
   emotes_female = ({
-	"carefully brushes out her long, golden hair.\n",
-	"looks a bit like Kim Basinger in RL.\n",
-	"has really _great_ tits.\n",
-	"stares at you seductively and bites her lower lip.\n",
-	"has modelled for a couple of magazines.\n",
-	"looks really puzzled.\n",
-	"carefully picks her nose with a long, elegant fingernail.\n",
-	"tries to straighten her hose without anyone noticing.\n",
-	"carefully applies some new lip gloss.\n",
-	"isn't really into this competition thing.\n",
-	"is really only fourteen years old.\n"
-	});
+        "carefully brushes out her long, golden hair.\n",
+        "looks a bit like Kim Basinger in RL.\n",
+        "has really _great_ tits.\n",
+        "stares at you seductively and bites her lower lip.\n",
+        "has modelled for a couple of magazines.\n",
+        "looks really puzzled.\n",
+        "carefully picks her nose with a long, elegant fingernail.\n",
+        "tries to straighten her hose without anyone noticing.\n",
+        "carefully applies some new lip gloss.\n",
+        "isn't really into this competition thing.\n",
+        "is really only fourteen years old.\n"
+        });
 
   if ((int)(my_player->query_gender()) == 2 ) {
-	ret = (emotes_female[(random(sizeof(emotes_female)))]);
+        ret = (emotes_female[(random(sizeof(emotes_female)))]);
   }
   if ((int)(my_player->query_gender()) == 1 ) {
-	ret = (emotes_male[(random(sizeof(emotes_male)))]);
+        ret = (emotes_male[(random(sizeof(emotes_male)))]);
   }
   return ret;
 } /* newbie() */

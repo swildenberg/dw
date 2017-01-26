@@ -20,7 +20,7 @@
   (no-arguments
     (self "You lambada with $hcname$.")
     (target "$mcname$ lambada$s$ with you.")
-			 (rest "$mcname$ lambada$s$ with $hcname$.")
+                         (rest "$mcname$ lambada$s$ with $hcname$.")
   )
   (arguments
     (arguments  sensuously, happily, hard and heavy, fast and furious,

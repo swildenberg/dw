@@ -16,5 +16,5 @@ void setup() {
    goal->add_goal_to_npc(this_object(), ([ ]), 100);
    load_chat(100, ({ 1, "'Scruff!",
                      1, "'Chickens?",
-			}));
+                        }));
 } /* setup() */

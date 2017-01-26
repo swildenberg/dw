@@ -164,7 +164,7 @@ void set_information(string info) {
  * @return the information about the nationality
  */
 string query_information() {
-	if (!_information) {
+        if (!_information) {
       _information = "The $C$" + query_name() + " nationality is yet to "
                      "be described.\n";
    }

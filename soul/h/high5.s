@@ -18,8 +18,8 @@
     (arguments happily,annoyingly,courteously,hysterically,absentmindedly)
       (self "You high five $hcname$.")
       (target "$mcname$ high five$s$ you $arg$.")
-      (rest "$mcname$ high five$s$ $hcname$ $arg$.")	
-	       )
+      (rest "$mcname$ high five$s$ $hcname$ $arg$.")        
+               )
     )
  )
 

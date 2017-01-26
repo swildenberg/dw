@@ -157,7 +157,7 @@ void end_writing( string words ) {
         "graffiti over this wall.  You may be able to \"read\" it.\n";
     ETP->add_sign(
       extra,
-      words,	
+      words,        
       "graffiti",
       ({"graffiti","scrawl"}),
       language

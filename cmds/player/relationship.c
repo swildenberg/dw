@@ -72,7 +72,7 @@ int do_relationship(string relationship, object *players, int force) {
          if (member_array(relationship, relations) != -1 &&
              force) {
             family = my_family;
-	    tell_object(player, this_player()->the_short() + 
+            tell_object(player, this_player()->the_short() + 
                              " offers to use "
                              "the relationship of " + rel + " with "
                              "you in the family " + my_family + " to allow "
@@ -109,15 +109,15 @@ int do_relationship(string relationship, object *players, int force) {
          }
       } else if (player->query_family_name()) {
          if (!force) {
-	    // Ok, they are already in a family.
-	    if (!CLUB_HANDLER->is_valid_interfamily_relationship(relationship)) {
-	       add_failed_mess("$I is in a family already and '" + 
+            // Ok, they are already in a family.
+            if (!CLUB_HANDLER->is_valid_interfamily_relationship(relationship)) {
+               add_failed_mess("$I is in a family already and '" + 
                                rel +
-			       "' is not a valid interfamily relationship.\n");
-	       continue;
-	    }
-	    family = player->query_family_name();
-	    tell_object(player, this_player()->the_short() + 
+                               "' is not a valid interfamily relationship.\n");
+               continue;
+            }
+            family = player->query_family_name();
+            tell_object(player, this_player()->the_short() + 
                              " offers to setup "
                              "a relationship of " + rel + " with "
                              "you.  This will not cause you to change the "
@@ -129,7 +129,7 @@ int do_relationship(string relationship, object *players, int force) {
                              "accept relationship from " +
                              this_player()->query_name() + 
                              " as " + rel + "\n");
-	 } else {
+         } else {
             if (!CLUB_HANDLER->is_valid_join_family_relationship(relationship)) {
                add_failed_mess("$I is in a family already and the "
                                "relationship '" + rel +
@@ -138,7 +138,7 @@ int do_relationship(string relationship, object *players, int force) {
                continue;
             }
             family = my_family;
-	    tell_object(player, this_player()->the_short() + 
+            tell_object(player, this_player()->the_short() + 
                              " offers to setup "
                              "a relationship of " + rel + " with "
                              "you in the family " + my_family + ".  WARNING! "
@@ -151,7 +151,7 @@ int do_relationship(string relationship, object *players, int force) {
                              "accept relationship from " +
                              this_player()->query_name() + " to " +
                              my_family + " as " + rel + "\n");
-	 }
+         }
          frog = new(class family_response_data);
          frog->family = family;
          frog->relationship = relationship;

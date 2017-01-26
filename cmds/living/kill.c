@@ -95,7 +95,7 @@ int cmd( object* things ) {
                                           ({ "You prepare to attack " + query_multiple_short(things) + ".\n", "" }), ({ }) );
       else
         this_player()->add_succeeded_mess(this_object(),
-					  ({ "You prepare to attack " + query_multiple_short(things) + " who " + (sizeof(things) > 1 ? "are" : "is") + " already hunting " + query_multiple_short(fighting) + ".\n", "" }), ({ }) );
+                                          ({ "You prepare to attack " + query_multiple_short(things) + " who " + (sizeof(things) > 1 ? "are" : "is") + " already hunting " + query_multiple_short(fighting) + ".\n", "" }), ({ }) );
       
         return 1;
     } else {

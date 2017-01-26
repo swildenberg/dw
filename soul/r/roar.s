@@ -28,5 +28,5 @@
       (target "$mcname$ roar$s$ $arg$ at you.")
       (rest  "$mcname$ roar$s$ $arg$ at $hcname$.")
     )
-  )	
+  )        
 )

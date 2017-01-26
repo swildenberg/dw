@@ -1,9 +1,7 @@
 #/obj/handlers/map_helper.c
 shorts (["entrance":"an entrance",])
 movezones (["entrance":({"nowhere",}),])
-changetimes (["entrance":1060209583,])
-clusters ([])
-map (["entrance":({"pumpkin","/d/dist/pumpkin/squash/squash5",}),])
+changetimes (["entrance":1485386656,])
 coords ([])
 sizes (["entrance":({10,10,10,}),])
 directory "d/dist/start"

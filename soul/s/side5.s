@@ -18,9 +18,9 @@
     (arguments happily,annoyingly,courteously,hysterically,absentmindedly)
       (self "You side five $hcname$.")
       (target "$mcname$ side five$s$you $arg$.")
-      (rest "$mcname$ side five$s$ $hcname$ $arg$.")	
-	
-	
+      (rest "$mcname$ side five$s$ $hcname$ $arg$.")        
+        
+        
        )
     )
  )

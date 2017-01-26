@@ -316,7 +316,7 @@ int lesson_response(string name, object student, int lessonstep, string args) {
     student->remove_object(this_object(), 1);
 
     //tell_creator( "belle", "lessonstep is %d, number of lesson steps is %d\n",
-    //		  lessonstep, (sizeof(_lessons[name]->plan)-1) );
+    //                  lessonstep, (sizeof(_lessons[name]->plan)-1) );
     // Is this the last step?
     if( (sizeof(_lessons[name]->plan)-1) == lessonstep ) {
       tell_creator("belle", "Lesson is on its last step: %d\n", lessonstep );

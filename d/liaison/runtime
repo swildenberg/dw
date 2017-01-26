@@ -64,3 +64,14 @@ Locals were: none.
 (1) 'get_instructor' in /d/liaison/NEWBIE/combat at line 85
 (2) 'create' in /d/liaison/NEWBIE/greg (/obj/monster.c) at line 130
 (3) 'setup' in /d/liaison/NEWBIE/greg at line 78
+--------------------
+Wed Jan 25 20:42:30 2017:  *Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+Object: /d/liaison/NEWBIE/greg at line 78
+Arguments were: (void)
+Locals were: none.
+
+
+(1) 'get_instructor' in /d/liaison/NEWBIE/combat at line 85
+(2) 'create' in /d/liaison/NEWBIE/greg (/obj/monster.c) at line 127
+(3) 'setup' in /d/liaison/NEWBIE/greg at line 78

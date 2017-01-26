@@ -13,7 +13,7 @@
                  slackingly, half-heartedly, loosely, madly,
                  competitively, tiredly, professionally, #)
            (self   "You slack $arg$.")
-      					(target "$mcname$ slack$s$ $arg$.")
+                                              (target "$mcname$ slack$s$ $arg$.")
            (rest   "$mcname$ slack$s$ $arg$.")
       )
   )
@@ -21,12 +21,12 @@
       (no-arguments
            (self   "You slack at $hcname$.")
            (target "$mcname$ slack$s$ at you.")
-	          (rest   "$mcname$ slack$s$ at $hcname$.")
+                  (rest   "$mcname$ slack$s$ at $hcname$.")
       ) 
       (arguments
         (arguments more than, less than, like)
            (self   "You slack $arg$ $hcname$.")
-      					(target "$mcname$ slack$s$ $arg$ you.")
+                                              (target "$mcname$ slack$s$ $arg$ you.")
            (rest  "$mcname$ slack$s$ $arg$ $hcname$.")
       )
       (arguments

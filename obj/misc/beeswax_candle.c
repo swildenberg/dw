@@ -19,7 +19,7 @@ void setup() {
          "It is almost burnt to a stub.", 10,
          "It is more than halfway burnt.", 50,
          "It is not yet halfway burnt.", 85,
-	 "It is almost new.", 99,
+         "It is almost new.", 99,
          "It is new.", 100
          }) );
    set_empty_mess( "is burnt to a stub." );

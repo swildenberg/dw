@@ -106,7 +106,7 @@ private void locate_value(string req, int newline) {
    int new_index;
    string test_data;
    string check_data;
-	
+        
    if(!req)
      return;
 

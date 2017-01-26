@@ -55,10 +55,10 @@ int do_unfold(object ob) {
 } /* do_unfold() */
 
 int do_fold(object ob) {
-	
+        
     if(!folded) {
         add_failed_mess("$D is already folded.\n", ({ }) );
-	    return 0;
+            return 0;
     }
     
     add_succeeded_mess("$N $V $D out into a bed.\n", ({ }) );

@@ -23,7 +23,7 @@
       (self   "You cackle at $hcname$.")
       (target "$mcname$ cackle$s$ at $hcname$.")
       (rest   "$mcname$ cackle$s$ at $hcname$.")
-	   )
+           )
     (arguments
       (arguments  with glee, happily, sadly, brightly, curtly, patiently, 
                   slowly, eagerly, expectantly, firmly, sagely, emphatically,

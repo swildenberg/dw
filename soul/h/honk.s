@@ -20,7 +20,7 @@
       (arguments horn)
        (self "You honk your $arg$.")
        (rest "$mcname$ honk$s$ $mposs$ $arg$.")
-	  )
+          )
           )
   (targeted
     (no-arguments
@@ -45,7 +45,7 @@
       )
     )
   )
-	
+        
 /* Hobbes, 970524 */
 
 

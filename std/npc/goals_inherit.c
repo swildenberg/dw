@@ -263,7 +263,7 @@ varargs void notify_npc_event(string event, mixed *information ...) {
 tell_creator("pinkfish", "%s %O\n", event, _events[event]);
    if (_events[event]) {
       foreach (goal in _events[event]) {
-  	 // If the event is handled then we break out.
+           // If the event is handled then we break out.
          if (goal->notify_of_event(this_object(),
                                    query_goal_information(goal)->data,
                                    event,
@@ -277,7 +277,7 @@ tell_creator("pinkfish", "%s %O\n", event, _events[event]);
       if (_plans[PLAN_PLAN]->notify_of_event(this_object(),
                                       ((class plan_info)_plans[PLAN_INFO])->data,
                                       event,
-				      information)) {
+                                      information)) {
          check_current_plan_finished();
       }
    }

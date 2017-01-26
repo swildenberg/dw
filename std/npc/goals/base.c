@@ -98,7 +98,7 @@ mixed create_goal_data(object npc,
  */
 void add_goal_to_npc(object npc,
                      mapping extra_plans,
-		     mixed stuff) {
+                     mixed stuff) {
    class goal_control frog;
    mixed value;
    string goal_name;

@@ -346,7 +346,7 @@ int query_known( string person, string argument ) {
   if(person != current_person) {
     current_philosophies = "";
     if( unguarded( (: file_length,
-		    SAVE_DIR + person[0..0]+"/"+person :) ) < 1 ) {
+                    SAVE_DIR + person[0..0]+"/"+person :) ) < 1 ) {
       current_person = person;
       return 0;
     }

@@ -25,8 +25,8 @@ void eventReceiveLocateRequest(mixed *packet) {
             status = "inactive";
     }
     INTERMUD_D->eventExternWrite( ({ "locate-reply", 5, mud_name(), 0, packet[2], 
-			       packet[3], mud_name(), 
-			       (string)ob->query_cap_name(),
+                               packet[3], mud_name(), 
+                               (string)ob->query_cap_name(),
                                query_idle(ob),
                                status }) );
 }

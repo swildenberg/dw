@@ -970,12 +970,12 @@ protected void eventRead(int fd, string str) {
             req->hostname = "discworld.imaginary.com:"+ PORT_HTTP;
          }
 
-				 // Does the client support compression?
-				 if(!undefinedp(req->rh->headers_in->header_m["ACCEPT_ENCODING"]) &&
-						strsrch(req->rh->headers_in->header_m["ACCEPT_ENCODING"],
-										"gzip, deflate") != -1)
-					 req->compressed = 1;
-				 
+                                 // Does the client support compression?
+                                 if(!undefinedp(req->rh->headers_in->header_m["ACCEPT_ENCODING"]) &&
+                                                strsrch(req->rh->headers_in->header_m["ACCEPT_ENCODING"],
+                                                                                "gzip, deflate") != -1)
+                                         req->compressed = 1;
+                                 
       } else if (!req->rh->noheaders) {
          /* No full set of headers received yet */
          return;

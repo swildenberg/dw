@@ -20,7 +20,7 @@ reset_obs = ({});
 } 
 setup()
 {
-	  set_short("A room");
+          set_short("A room");
     set_long("A room");
     set_light(100);
 }
@@ -28,18 +28,18 @@ setup()
 object FindObject( mixed obj )
 {
   mixed ob;
-  ob = obj;	
+  ob = obj;        
   if( stringp(obj) ) {
-	ob = find_object( obj);
+        ob = find_object( obj);
         if( !objectp(ob) ) {
-	  (void) obj->load_please();
-	  ob = find_object( obj);
-	}
+          (void) obj->load_please();
+          ob = find_object( obj);
+        }
   }
   if( !objectp( ob ) ) {
-	printf("FindObject failed in add_func: %O\n",obj);
-	throw("UnRecoverable error\n");
-	return 0;
+        printf("FindObject failed in add_func: %O\n",obj);
+        throw("UnRecoverable error\n");
+        return 0;
   }
   return ob;
 }
@@ -54,7 +54,7 @@ int AddFuncsToMixed( mixed *array, object obj, mixed func )
 
   if( sizeof(array) ) 
   {
-	array = ({ ob, func }); return 1;
+        array = ({ ob, func }); return 1;
   }
 
   array2 = array;
@@ -68,19 +68,19 @@ int AddFuncsToMixed( mixed *array, object obj, mixed func )
 
   array += ({ ob, func });
   return 1;
-}	
+}        
 
 RunFuncsOnObjects( mixed *array , object arg )
-{	
+{        
    int i;
    for( i = 0 ; i < sizeof(array) ; i +=2 ) 
-	call_other( array[i], array[i+1], ({ arg })  );
+        call_other( array[i], array[i+1], ({ arg })  );
 }
 
 
 void add_reset_func( mixed ob, string func )
 {
-	AddFuncsToMixed( reset_funcs, ob, func );
+        AddFuncsToMixed( reset_funcs, ob, func );
 }
 
 void add_dest_func( mixed ob, string func )
@@ -90,18 +90,18 @@ void add_dest_func( mixed ob, string func )
 
 void add_enter_func( mixed ob, string func )
 {
-	AddFuncsToMixed( enter_funcs, ob, func );
+        AddFuncsToMixed( enter_funcs, ob, func );
 }
 
 void add_exit_func( mixed ob, string func )
 {
-	AddFuncsToMixed( exit_funcs, ob, func );
+        AddFuncsToMixed( exit_funcs, ob, func );
 }
 
 
 void add_death_func( mixed ob, string func )
 {
-	AddFuncsToMixed( death_funcs, ob, func );
+        AddFuncsToMixed( death_funcs, ob, func );
 }
 
 
@@ -125,7 +125,7 @@ reset()
    }
 
    if( sizeof( reset_funcs ) )
-	RunFuncsOnObjects( reset_funcs  , 0 );
+        RunFuncsOnObjects( reset_funcs  , 0 );
 
 }
 

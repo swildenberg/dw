@@ -24,7 +24,7 @@ void eventReceiveTell(mixed *packet) {
                       capitalize(packet[5]) + " is nowhere to "
                         "be found on " + mud_name() + ".",
                       packet }));
-    	return;
+            return;
     }
     if (!ob->query_creator()) {
         INTERMUD_D->eventExternWrite(({ "error", 5, mud_name(), 0, packet[2],
@@ -47,5 +47,5 @@ void eventSendTell(string who, string where, string msg) {
     plc = (string)this_player(1)->query_cap_name();
     where = (string)INTERMUD_D->GetMudName(where);
     INTERMUD_D->eventExternWrite(({ "tell", 5, mud_name(), pl, where, 
-			      lower_case(who), plc, msg }));
+                              lower_case(who), plc, msg }));
 } /* eventSendTell() */
