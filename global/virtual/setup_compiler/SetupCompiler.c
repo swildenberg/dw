@@ -33,8 +33,8 @@ void initialize_methods() {
 #define Error(s) write(s); log_file("VO_COMPILER", s); return 0;
 
 object prop_to_fun(string file, int clone, string incfile ) {
-    string  data, data2, s1, *ind, dir, tmp_name;
-    int      i;
+    string  data,/*data2, s1,*/ *ind, dir, tmp_name;
+   // int      i;
   
     tmp_name = file+"-"+(tmp_file_no++)+".c";
     if (find_object(tmp_name))

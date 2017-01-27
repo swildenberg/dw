@@ -1596,7 +1596,7 @@ mapping query_dynamic_auto_load() {
 } /* query_dynamic_auto_load() */
 
 /** @ignore yes */
-void init_dynamic_arg(mapping map) {
+void init_dynamic_arg(mapping map, object) {
   mixed *ps_attrs;
   object money;
 
@@ -1708,7 +1708,7 @@ int can_find_match_recurse_into(object looker) {
 } /* can_find_match_recurse_into() */
 
 /** @ignore yes */
-int test_remove(object ob, int flag) { return !query_closed(); }
+int test_remove(object ob, int flag, mixed dest) { return !query_closed(); }
 
 /** @ignore yes */
 varargs int move(mixed dest, string messin, string messout) {

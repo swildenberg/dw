@@ -538,7 +538,8 @@ string* walk_directory (string dir) {
   if (sizeof (tmp))
     dirs += ({dir});
 
-  foreach(file in tmp) {
+/*  foreach(file in tmp) { */
+  foreach(file in dirs) {
     if(file[1] == -2) {
       tmp2 = walk_directory (dir + file [0] + "/");
       if (sizeof (tmp2))

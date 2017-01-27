@@ -7,7 +7,7 @@
 #define BROOMSTICK "/d/guilds/witches/items/broomstick"
 #define GRANNY "/d/guilds/witches/chars/granny_weatherwax"
 
-inherit "/std/outside";
+inherit "/std/room/outside";
 
 int screen_command( string cmd );
 

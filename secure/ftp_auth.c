@@ -19,7 +19,7 @@ class ftp_session {
   string user;
 }
 
-private mapping Sockets;
+//private mapping Sockets;
 
 protected void create() {
   server::create();

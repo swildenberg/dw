@@ -15,7 +15,7 @@ inherit "/obj/handlers/inherit/club_elected";
 #include <player_handler.h>
 
 // Special variables to control the club inner workings.
-private nosave mapping _discussion_items;
+//private nosave mapping _discussion_items;
 
 #define CLUB_DISCUSS_FUNCTION_OBJECT     0
 #define CLUB_DISCUSS_FUNCTION_FUNCTION   1

@@ -6,7 +6,7 @@
  *
  */
 #include "path.h"
-inherit "/std/outside";
+inherit "/std/room/outside";
 inherit PATH + "common";
 
 void create() {

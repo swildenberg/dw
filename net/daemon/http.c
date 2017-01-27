@@ -107,7 +107,7 @@ protected void parse_headers(class http_request req, int i);
 protected void send_string_array(int fd, string *str, int mod_date,
                            string location, int no_length);
 
-private nosave mapping Sockets;
+// private nosave mapping Sockets;
 private nosave mapping Resolve; 
 private nosave string current_file;
 private nosave int max_file_size;

@@ -1,7 +1,7 @@
 #/obj/handlers/map_helper.c
 shorts (["departures":"a Discworld departure lounge","rubbish":"a rubbish room","void":"the convention in the void","vault":"a vault room",])
 movezones (["departures":({"nowhere",}),"rubbish":({"nowhere",}),"void":({"nowhere",}),"vault":({"nowhere",}),])
-changetimes (["departures":1059516281,"rubbish":1485386656,"void":1060209647,"vault":1059516281,])
+changetimes (["departures":1059516281,"rubbish":1485405446,"void":1060209647,"vault":1485405446,])
 coords (["departures":({0,0,-1000,}),])
 sizes (["departures":({10,10,10,}),"rubbish":({10,10,10,}),"void":({10,10,10,}),"vault":({10,10,10,}),])
 directory "room"

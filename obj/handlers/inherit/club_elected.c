@@ -529,8 +529,8 @@ int add_money(string name,
               int amount,
               int type,
               string person,
-              string account,
-              string information) {
+              string account,/*
+              string information*/) {
    class account_info frog;
    class club_transaction bing;
 
@@ -568,8 +568,8 @@ int remove_money(string name,
                  int amount,
                  int type,
                  string person,
-                 string account,
-                 string information) {
+                 string account/*,
+                 string information*/) {
    class account_info frog;
    class club_transaction bing;
 

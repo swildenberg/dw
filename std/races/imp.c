@@ -1,4 +1,4 @@
-inherit "/std/races/demonic";
+inherit "/std/races/human";
 
 void setup() {
    set_long( "This is one of the smaller denizens of the Underworld.\n" );

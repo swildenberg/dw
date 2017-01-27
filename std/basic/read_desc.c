@@ -230,6 +230,7 @@ string query_readable_message(object player, int ignore_labels) {
       }
     }
     mess = LANGUAGES->garble_text(lang, mess, this_object(), player);
+#define DISABLED
 #ifdef DISABLED   
     if (stringp(mess)) {
       pos = strsrch(mess, "Written in ");
